@@ -1,0 +1,138 @@
+/**
+ * CSS 变量定义
+ * 统一管理颜色、字体、间距等设计规范
+ */
+
+:root {
+  /* ========== 颜色系统 ========== */
+
+  /* 主色调 - 蓝色系（科技感） */
+  --color-primary: #0066cc;
+  --color-primary-light: #3385db;
+  --color-primary-dark: #004d99;
+  --color-primary-hover: #0052a3;
+
+  /* 辅助色 - 灰色系（专业感） */
+  --color-secondary: #666666;
+  --color-secondary-light: #999999;
+  --color-secondary-dark: #333333;
+
+  /* 强调色 - 橙色（行动按钮） */
+  --color-accent: #ff6600;
+  --color-accent-hover: #e65c00;
+
+  /* 背景色 */
+  --color-bg-primary: #ffffff;
+  --color-bg-secondary: #f5f5f5;
+  --color-bg-tertiary: #e8e8e8;
+  --color-bg-dark: #1a1a1a;
+
+  /* 文字颜色 */
+  --color-text-primary: #333333;
+  --color-text-secondary: #666666;
+  --color-text-tertiary: #999999;
+  --color-text-white: #ffffff;
+
+  /* 边框颜色 */
+  --color-border: #dddddd;
+  --color-border-light: #eeeeee;
+
+  /* 状态颜色 */
+  --color-success: #28a745;
+  --color-warning: #ffc107;
+  --color-error: #dc3545;
+  --color-info: #17a2b8;
+
+  /* ========== 字体系统 ========== */
+
+  /* 字体族 */
+  --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+                      'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji';
+  --font-family-heading: 'Arial', 'Microsoft YaHei', sans-serif;
+
+  /* 字体大小 */
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 40px;
+  --font-size-5xl: 48px;
+
+  /* 字体粗细 */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* 行高 */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.8;
+
+  /* ========== 间距系统 ========== */
+
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  --spacing-3xl: 64px;
+  --spacing-4xl: 80px;
+
+  /* ========== 布局系统 ========== */
+
+  /* 容器宽度 */
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+  --container-2xl: 1440px;
+
+  /* 头部高度 */
+  --header-height: 80px;
+  --header-height-mobile: 60px;
+
+  /* ========== 圆角 ========== */
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* ========== 阴影 ========== */
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+
+  /* ========== 过渡动画 ========== */
+
+  --transition-fast: 0.15s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* ========== Z-index 层级 ========== */
+
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-popover: 1060;
+  --z-tooltip: 1070;
+}
+
+/* ========== 响应式断点 ========== */
+/* 使用方式：@media (max-width: 768px) {} */
+
+/*
+  移动端：< 640px
+  平板：640px - 1024px
+  桌面：> 1024px
+*/
