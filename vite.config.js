@@ -4,6 +4,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // 基础路径配置
+  base: '/',
+
   plugins: [
     vue(),
   ],
