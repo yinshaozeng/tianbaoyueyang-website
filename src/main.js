@@ -42,9 +42,15 @@ app.config.errorHandler = (err, instance, info) => {
 app.mount('#app')
 
 /**
- * 开发环境提示
+ * 开发环境提示和性能监控
  */
 if (import.meta.env.DEV) {
   console.log('🚀 应用运行在开发模式')
   console.log('📍 当前环境变量:', import.meta.env)
+
+  // 性能监控（仅开发环境）
+  import('./utils/performance').then(({ logPerformanceReport, trackWebVitals }) => {
+    logPerformanceReport()
+    trackWebVitals()
+  })
 }

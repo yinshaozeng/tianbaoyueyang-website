@@ -7,7 +7,7 @@ import { ref, computed } from 'vue'
 import { t as translate } from '@/locales'
 
 // 全局语言状态（在模块顶层定义，所有组件共享）
-const currentLocale = ref(localStorage.getItem('locale') || 'en')
+const currentLocale = ref(localStorage.getItem('locale') || 'zh')
 
 /**
  * 语言切换 Hook

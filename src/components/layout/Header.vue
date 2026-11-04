@@ -111,6 +111,34 @@
               </router-link>
             </li>
           </ul>
+
+          <!-- 移动端语言切换 -->
+          <div class="mobile-language-section">
+            <div class="mobile-section-title">{{ t('header.language') || '语言 / Language' }}</div>
+            <div class="mobile-language-grid">
+              <button
+                v-for="lang in languages"
+                :key="lang.code"
+                class="mobile-language-btn"
+                :class="{ 'active': currentLanguage.code === lang.code }"
+                @click="changeLanguage(lang)"
+              >
+                <span class="flag">{{ lang.flag }}</span>
+                <span class="lang-name">{{ lang.name }}</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- 移动端联系按钮 -->
+          <div class="mobile-contact-section">
+            <router-link
+              to="/contact"
+              class="btn btn-primary btn-large mobile-contact-btn"
+              @click="closeMobileMenu"
+            >
+              {{ t('header.contactBtn') }}
+            </router-link>
+          </div>
         </nav>
       </div>
     </transition>
@@ -212,6 +240,12 @@ export default {
     const changeLanguage = (lang) => {
       setLocale(lang.code)
       isLanguageMenuOpen.value = false
+
+      // 移动端切换语言后关闭菜单
+      if (isMobileMenuOpen.value) {
+        closeMobileMenu()
+      }
+
       // 页面会自动重新渲染，因为所有文本都是响应式的
       console.log('语言已切换到:', lang.name)
     }
@@ -573,6 +607,7 @@ export default {
   box-shadow: var(--shadow-lg);
   max-height: calc(100vh - var(--header-height-mobile));
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .mobile-nav-list {
@@ -594,6 +629,86 @@ export default {
 
 .mobile-nav-link:active {
   background: var(--color-bg-secondary);
+}
+
+/* 移动端语言切换区域 */
+.mobile-language-section {
+  padding: var(--spacing-lg);
+  background: var(--color-bg-secondary);
+  border-top: 2px solid var(--color-border);
+  border-bottom: 2px solid var(--color-border);
+  margin-top: var(--spacing-sm);
+}
+
+.mobile-section-title {
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-md);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.mobile-language-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-sm);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.mobile-language-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-md) var(--spacing-sm);
+  background: var(--color-bg-primary);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: all var(--transition-base);
+  font-size: var(--font-size-sm);
+  min-height: 70px;
+}
+
+.mobile-language-btn .flag {
+  font-size: var(--font-size-2xl);
+  line-height: 1;
+}
+
+.mobile-language-btn .lang-name {
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-xs);
+  text-align: center;
+}
+
+.mobile-language-btn:active,
+.mobile-language-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  transform: scale(0.98);
+}
+
+.mobile-language-btn.active .lang-name {
+  color: var(--color-text-white);
+}
+
+/* 移动端联系按钮区域 */
+.mobile-contact-section {
+  padding: var(--spacing-lg);
+  background: var(--color-bg-primary);
+}
+
+.mobile-contact-btn {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-base);
 }
 
 /* 移动端菜单动画 */

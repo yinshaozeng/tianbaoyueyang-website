@@ -22,7 +22,7 @@ const routes = [
     name: 'home',
     component: Home,
     meta: {
-      title: '首页 - 企业自动化解决方案'
+      title: '首页 - 天津越洋机械有限公司'
     }
   },
   // {
@@ -39,7 +39,7 @@ const routes = [
     name: 'productDetail',
     component: () => import('@/views/ProductDetail.vue'),
     meta: {
-      title: '产品详情 - 企业自动化解决方案'
+      title: '产品详情 - 天津越洋机械有限公司'
     }
   },
   {
@@ -47,7 +47,7 @@ const routes = [
     name: 'solutions',
     component: () => import('@/views/Solutions.vue'),
     meta: {
-      title: '解决方案 - 企业自动化解决方案'
+      title: '解决方案 - 天津越洋机械有限公司'
     }
   },
   {
@@ -55,7 +55,7 @@ const routes = [
     name: 'about',
     component: () => import('@/views/About.vue'),
     meta: {
-      title: '关于我们 - 企业自动化解决方案'
+      title: '关于我们 - 天津越洋机械有限公司'
     }
   },
   {
@@ -63,7 +63,7 @@ const routes = [
     name: 'contact',
     component: () => import('@/views/Contact.vue'),
     meta: {
-      title: '联系我们 - 企业自动化解决方案'
+      title: '联系我们 - 天津越洋机械有限公司'
     }
   },
   {
@@ -72,7 +72,7 @@ const routes = [
     name: 'notFound',
     component: () => import('@/views/NotFound.vue'),
     meta: {
-      title: '页面未找到 - 企业自动化解决方案'
+      title: '页面未找到 - 天津越洋机械有限公司'
     }
   }
 ]

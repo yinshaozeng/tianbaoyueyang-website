@@ -14,7 +14,8 @@ export const messages = {
       contact: '联系我们'
     },
     header: {
-      contactBtn: '联系我们'
+      contactBtn: '联系我们',
+      language: '语言'
     },
     hero: {
       slide1: {
@@ -34,7 +35,7 @@ export const messages = {
         subtitle: '7x24小时专业技术团队，为您的生产保驾护航'
       },
       slide5: {
-        title: '天津越洋机械制造有限公司',
+        title: '天津越洋机械有限公司',
         subtitle: '专注工业自动化领域，为全球客户提供优质服务'
       }
     },
@@ -83,7 +84,91 @@ export const messages = {
       interestedSubtitle: '联系我们了解更多详情和获取报价',
       contactUs: '联系我们',
       relatedProducts: '相关产品',
-      viewDetails: '查看详情 →'
+      viewDetails: '查看详情 →',
+      // PLC产品
+      plc: {
+        name: '喷射沉积锭坯设备',
+        description: '喷射沉积锭坯设备是通过加热熔融金属，经过雾化器与惰性气体混合喷射沉积到金属托盘上，从而形成的圆柱体金属坯料。再经过加工可以得到挤压或锻造的材料。本设备可以生产铜合金，钢合金，铝合金，等多种金属材料',
+        feature1: '没有宏观偏析',
+        feature2: '晶粒细小均匀',
+        feature3: '平均晶粒尺寸20-50微米',
+        feature4: '优良的机械性能和加工性能',
+        feature5: '适合批量化生产',
+        showcase1: '喷射沉积铝合金坯料',
+        showcase2: '喷射沉积铝合金锻造件',
+        showcase3: '喷射沉积铝合金挤压型材',
+        showcase4: '喷射沉积铝合金板材'
+      },
+      // 传感器产品
+      sensors: {
+        name: '气体保护制备粉末设备',
+        description: '本产品在半导体设备领域大量应用CE合金、铝基复合材料、碳化硅铝材料，在电子封装领域与光学通讯领域也有广泛的应用。',
+        feature1: '没有宏观偏析',
+        feature2: '晶粒细小均匀',
+        feature3: '平均晶粒尺寸5-15微米',
+        feature4: '可调节的CTE（线膨胀系数）',
+        feature5: '优良的导热率',
+        showcase1: '光学反射镜',
+        showcase2: '半导体器件',
+        showcase3: '光通讯器件',
+        showcase4: '定制化半导体材料'
+      },
+      // 视觉系统产品
+      vision: {
+        name: '喷射沉积管坯设备',
+        description: '喷射沉积管坯设备是通过加热熔融金属，经过雾化器与惰性气体混合喷射沉积到金属管轴上，从而形成的管状金属坯料。本设备可以生产铜合金，钢合金，铝合金，等多种金属材料',
+        feature1: '没有宏观偏析',
+        feature2: '晶粒细小均匀',
+        feature3: '平均晶粒尺寸20-50微米',
+        feature4: '优良的机械性能和加工性能',
+        feature5: '适合批量化生产',
+        showcase1: '喷射沉积圆管',
+        showcase2: '半固态压铸管件',
+        showcase3: '气体保护制粉',
+        showcase4: '各种尺寸的挤压管坯，管件'
+      },
+      // 伺服系统产品
+      servo: {
+        name: '轻量化刹车盘',
+        description: '高性能伺服驱动系统采用矢量控制技术，具有高扭矩、高精度、低噪声等优势。广泛应用于机器人、机床、包装机械等需要精密控制的场合。',
+        feature1: '矢量控制，精度高达±0.01°',
+        feature2: '高扭矩输出，业界领先',
+        feature3: '低噪声设计，<70dB',
+        feature4: '集成智能制动器',
+        feature5: '支持多种编码器类型',
+        showcase1: '刹车盘整体',
+        showcase2: '材料特写',
+        showcase3: '精密加工',
+        showcase4: '实车应用'
+      },
+      // HMI产品
+      hmi: {
+        name: '允许挤压',
+        description: '专业级HMI触摸屏显示系统，具有高清晰显示、快速响应、丰富的交互功能。支持多语言、多主题切换，可轻松适应各种工业应用场景。',
+        feature1: '1080P高清显示，色彩准确',
+        feature2: '电容触摸屏，响应迅速',
+        feature3: '支持多点触控手势',
+        feature4: '内置丰富的图形组件库',
+        feature5: '支持实时数据同步',
+        showcase1: '产品外观',
+        showcase2: '挤压成型',
+        showcase3: '锻造应用',
+        showcase4: '轧制产品'
+      },
+      // 网关产品
+      gateway: {
+        name: '允许轧制',
+        description: '工业级物联网网关集成多种通讯协议，支持边缘计算和数据聚合。可连接数百个物联网设备，实现数据的实时采集、处理和上传，是构建智能工厂的核心组件。',
+        feature1: '支持6+种通讯协议',
+        feature2: '边缘计算，数据本地处理',
+        feature3: '支持4G/5G/WiFi/有线网络',
+        feature4: '集成实时数据库',
+        feature5: '支持离线工作和数据缓存',
+        showcase1: '设备全景',
+        showcase2: '控制系统',
+        showcase3: '实验样品',
+        showcase4: '操作界面'
+      }
     },
     solutions: {
       manufacturing: '为新材料开发提供解决方案',
@@ -176,12 +261,12 @@ export const messages = {
       errorMessage: '请输入留言内容'
     },
     footer: {
-      company: '天津越洋机械制造有限公司',
+      company: '天津越洋机械有限公司',
       description: '专注于为全球客户提供创新的自动化解决方案，助力企业实现智能制造转型升级。',
       productsTitle: '产品与服务',
       supportTitle: '支持与帮助',
       contactTitle: '联系我们',
-      copyright: '天津越洋机械制造有限公司. 保留所有权利.',
+      copyright: '天津越洋机械有限公司. 保留所有权利.',
       privacy: '隐私政策',
       terms: '使用条款',
       sitemap: '网站地图',
@@ -299,7 +384,8 @@ export const messages = {
       contact: 'Contact'
     },
     header: {
-      contactBtn: 'Contact Us'
+      contactBtn: 'Contact Us',
+      language: 'Language'
     },
     hero: {
       slide1: {
@@ -368,7 +454,85 @@ export const messages = {
       interestedSubtitle: 'Contact us for more details and quotes',
       contactUs: 'Contact Us',
       relatedProducts: 'Related Products',
-      viewDetails: 'View Details →'
+      viewDetails: 'View Details →',
+      plc: {
+        name: 'Spray Deposition Ingot Equipment',
+        description: 'The spray deposition ingot equipment forms cylindrical metal blanks by heating molten metal, mixing it with inert gas through an atomizer, and spray depositing it onto a metal tray. After processing, it can produce extruded or forged materials. This equipment can produce copper alloys, steel alloys, aluminum alloys, and various other metal materials.',
+        feature1: 'No macroscopic segregation',
+        feature2: 'Fine and uniform grains',
+        feature3: 'Average grain size 20-50 microns',
+        feature4: 'Excellent mechanical properties and processability',
+        feature5: 'Suitable for batch production',
+        showcase1: 'Spray Deposited Aluminum Alloy Blank',
+        showcase2: 'Spray Deposited Aluminum Alloy Forging',
+        showcase3: 'Spray Deposited Aluminum Alloy Extruded Profile',
+        showcase4: 'Spray Deposited Aluminum Alloy Plate'
+      },
+      sensors: {
+        name: 'Gas-Protected Powder Preparation Equipment',
+        description: 'This product is widely used in semiconductor equipment fields with CE alloys, aluminum matrix composites, and silicon carbide aluminum materials, and also has extensive applications in electronic packaging and optical communication fields.',
+        feature1: 'No macroscopic segregation',
+        feature2: 'Fine and uniform grains',
+        feature3: 'Average grain size 5-15 microns',
+        feature4: 'Adjustable CTE (coefficient of thermal expansion)',
+        feature5: 'Excellent thermal conductivity',
+        showcase1: 'Optical Mirrors',
+        showcase2: 'Semiconductor Devices',
+        showcase3: 'Optical Communication Devices',
+        showcase4: 'Customized Semiconductor Materials'
+      },
+      vision: {
+        name: 'Spray Deposition Tube Blank Equipment',
+        description: 'The spray deposition tube blank equipment forms tubular metal blanks by heating molten metal, mixing it with inert gas through an atomizer, and spray depositing it onto a metal mandrel. This equipment can produce copper alloys, steel alloys, aluminum alloys, and various other metal materials.',
+        feature1: 'No macroscopic segregation',
+        feature2: 'Fine and uniform grains',
+        feature3: 'Average grain size 20-50 microns',
+        feature4: 'Excellent mechanical properties and processability',
+        feature5: 'Suitable for batch production',
+        showcase1: 'Spray Deposited Round Tube',
+        showcase2: 'Semi-Solid Die-Cast Tube Components',
+        showcase3: 'Gas-Protected Powder Making',
+        showcase4: 'Various Sizes of Extruded Tube Blanks and Fittings'
+      },
+      servo: {
+        name: 'Lightweight Brake Disc',
+        description: 'High-performance servo drive system using vector control technology, with advantages of high torque, high precision, and low noise. Widely used in robots, machine tools, packaging machinery and other applications requiring precise control.',
+        feature1: 'Vector control, accuracy up to ±0.01°',
+        feature2: 'High torque output, industry-leading',
+        feature3: 'Low noise design, <70dB',
+        feature4: 'Integrated intelligent brake',
+        feature5: 'Support for various encoder types',
+        showcase1: 'Brake Disc Assembly',
+        showcase2: 'Material Close-up',
+        showcase3: 'Precision Machining',
+        showcase4: 'Vehicle Application'
+      },
+      hmi: {
+        name: 'Extrudable Material',
+        description: 'Professional HMI touch screen display system with high-definition display, fast response, and rich interactive functions. Supports multiple languages and theme switching, easily adapting to various industrial application scenarios.',
+        feature1: '1080P HD display, accurate colors',
+        feature2: 'Capacitive touch screen, quick response',
+        feature3: 'Support for multi-touch gestures',
+        feature4: 'Built-in rich graphic component library',
+        feature5: 'Support for real-time data synchronization',
+        showcase1: 'Product Appearance',
+        showcase2: 'Extrusion Forming',
+        showcase3: 'Forging Application',
+        showcase4: 'Rolling Products'
+      },
+      gateway: {
+        name: 'Rollable Material',
+        description: 'Industrial-grade IoT gateway integrating multiple communication protocols, supporting edge computing and data aggregation. Can connect hundreds of IoT devices, achieving real-time data collection, processing, and uploading, serving as the core component for building smart factories.',
+        feature1: 'Support for 6+ communication protocols',
+        feature2: 'Edge computing, local data processing',
+        feature3: 'Support for 4G/5G/WiFi/wired networks',
+        feature4: 'Integrated real-time database',
+        feature5: 'Support for offline work and data caching',
+        showcase1: 'Equipment Overview',
+        showcase2: 'Control System',
+        showcase3: 'Experimental Samples',
+        showcase4: 'Operation Interface'
+      }
     },
     solutions: {
       manufacturing: 'Solutions for New Material Development',
@@ -584,7 +748,8 @@ export const messages = {
       contact: 'お問い合わせ'
     },
     header: {
-      contactBtn: 'お問い合わせ'
+      contactBtn: 'お問い合わせ',
+      language: '言語'
     },
     hero: {
       slide1: {
@@ -653,7 +818,85 @@ export const messages = {
       interestedSubtitle: '詳細と見積もりについてはお問い合わせください',
       contactUs: 'お問い合わせ',
       relatedProducts: '関連製品',
-      viewDetails: '詳細を見る →'
+      viewDetails: '詳細を見る →',
+      plc: {
+        name: 'スプレー堆積インゴット設備',
+        description: 'スプレー堆積インゴット設備は、溶融金属を加熱し、アトマイザーと不活性ガスを混合して金属トレイに噴霧堆積することで、円柱状の金属ブランクを形成します。加工後、押出または鍛造材料を得ることができます。本設備は、銅合金、鋼合金、アルミニウム合金など、さまざまな金属材料を生産できます。',
+        feature1: 'マクロ偏析なし',
+        feature2: '微細で均一な結晶粒',
+        feature3: '平均結晶粒サイズ20〜50ミクロン',
+        feature4: '優れた機械的特性と加工性',
+        feature5: 'バッチ生産に適している',
+        showcase1: 'スプレー堆積アルミニウム合金ブランク',
+        showcase2: 'スプレー堆積アルミニウム合金鍛造品',
+        showcase3: 'スプレー堆積アルミニウム合金押出形材',
+        showcase4: 'スプレー堆積アルミニウム合金板材'
+      },
+      sensors: {
+        name: 'ガス保護粉末調製設備',
+        description: 'この製品は、半導体装置分野でCE合金、アルミニウムマトリックス複合材料、炭化ケイ素アルミニウム材料が大量に使用されており、電子パッケージングおよび光通信分野でも広く応用されています。',
+        feature1: 'マクロ偏析なし',
+        feature2: '微細で均一な結晶粒',
+        feature3: '平均結晶粒サイズ5〜15ミクロン',
+        feature4: '調整可能なCTE（熱膨張係数）',
+        feature5: '優れた熱伝導率',
+        showcase1: '光学反射鏡',
+        showcase2: '半導体デバイス',
+        showcase3: '光通信デバイス',
+        showcase4: 'カスタマイズされた半導体材料'
+      },
+      vision: {
+        name: 'スプレー堆積チューブビレット設備',
+        description: 'スプレー堆積チューブビレット設備は、溶融金属を加熱し、アトマイザーと不活性ガスを混合して金属マンドレルに噴霧堆積することで、管状の金属ブランクを形成します。本設備は、銅合金、鋼合金、アルミニウム合金など、さまざまな金属材料を生産できます。',
+        feature1: 'マクロ偏析なし',
+        feature2: '微細で均一な結晶粒',
+        feature3: '平均結晶粒サイズ20〜50ミクロン',
+        feature4: '優れた機械的特性と加工性',
+        feature5: 'バッチ生産に適している',
+        showcase1: 'スプレー堆積丸管',
+        showcase2: '半固体ダイカスト管部品',
+        showcase3: 'ガス保護製粉',
+        showcase4: 'さまざまなサイズの押出管ブランクおよび管継手'
+      },
+      servo: {
+        name: '軽量ブレーキディスク',
+        description: '高性能サーボドライブシステムは、ベクトル制御技術を使用し、高トルク、高精度、低ノイズなどの利点があります。ロボット、工作機械、包装機械など、精密制御が必要な用途に広く使用されています。',
+        feature1: 'ベクトル制御、精度±0.01°まで',
+        feature2: '高トルク出力、業界をリード',
+        feature3: '低ノイズ設計、<70dB',
+        feature4: 'インテリジェントブレーキを統合',
+        feature5: 'さまざまなエンコーダータイプをサポート',
+        showcase1: 'ブレーキディスクアセンブリ',
+        showcase2: '材料クローズアップ',
+        showcase3: '精密加工',
+        showcase4: '車両応用'
+      },
+      hmi: {
+        name: '押出可能材料',
+        description: 'プロフェッショナルHMIタッチスクリーンディスプレイシステムは、高精細ディスプレイ、高速応答、豊富なインタラクティブ機能を備えています。複数の言語とテーマの切り替えをサポートし、さまざまな産業アプリケーションシナリオに簡単に適応できます。',
+        feature1: '1080P HDディスプレイ、正確な色',
+        feature2: '静電容量式タッチスクリーン、迅速な応答',
+        feature3: 'マルチタッチジェスチャーをサポート',
+        feature4: '豊富なグラフィックコンポーネントライブラリを内蔵',
+        feature5: 'リアルタイムデータ同期をサポート',
+        showcase1: '製品外観',
+        showcase2: '押出成形',
+        showcase3: '鍛造応用',
+        showcase4: '圧延製品'
+      },
+      gateway: {
+        name: '圧延可能材料',
+        description: '産業グレードのIoTゲートウェイは、複数の通信プロトコルを統合し、エッジコンピューティングとデータ集約をサポートしています。数百のIoTデバイスを接続でき、リアルタイムのデータ収集、処理、アップロードを実現し、スマート工場を構築するための中核コンポーネントです。',
+        feature1: '6種類以上の通信プロトコルをサポート',
+        feature2: 'エッジコンピューティング、ローカルデータ処理',
+        feature3: '4G/5G/WiFi/有線ネットワークをサポート',
+        feature4: 'リアルタイムデータベースを統合',
+        feature5: 'オフライン作業とデータキャッシングをサポート',
+        showcase1: '設備全景',
+        showcase2: '制御システム',
+        showcase3: '実験サンプル',
+        showcase4: '操作インターフェース'
+      }
     },
     solutions: {
       manufacturing: '新材料開発のためのソリューション',
@@ -869,7 +1112,8 @@ export const messages = {
       contact: '문의하기'
     },
     header: {
-      contactBtn: '문의하기'
+      contactBtn: '문의하기',
+      language: '언어'
     },
     hero: {
       slide1: {
@@ -938,7 +1182,85 @@ export const messages = {
       interestedSubtitle: '자세한 내용과 견적은 문의해 주세요',
       contactUs: '문의하기',
       relatedProducts: '관련 제품',
-      viewDetails: '자세히 보기 →'
+      viewDetails: '자세히 보기 →',
+      plc: {
+        name: '분무 증착 잉곳 장비',
+        description: '분무 증착 잉곳 장비는 용융 금속을 가열하고 분무기와 불활성 가스를 혼합하여 금속 트레이에 분무 증착하여 원통형 금속 블랭크를 형성합니다. 가공 후 압출 또는 단조 재료를 얻을 수 있습니다. 이 장비는 구리 합금, 강철 합금, 알루미늄 합금 등 다양한 금속 재료를 생산할 수 있습니다.',
+        feature1: '거시적 편석 없음',
+        feature2: '미세하고 균일한 입자',
+        feature3: '평균 입자 크기 20-50 마이크론',
+        feature4: '우수한 기계적 특성 및 가공성',
+        feature5: '배치 생산에 적합',
+        showcase1: '분무 증착 알루미늄 합금 블랭크',
+        showcase2: '분무 증착 알루미늄 합금 단조품',
+        showcase3: '분무 증착 알루미늄 합금 압출 프로파일',
+        showcase4: '분무 증착 알루미늄 합금 판재'
+      },
+      sensors: {
+        name: '가스 보호 분말 제조 장비',
+        description: '이 제품은 반도체 장비 분야에서 CE 합금, 알루미늄 매트릭스 복합 재료, 탄화 규소 알루미늄 재료가 대량으로 사용되며, 전자 패키징 및 광통신 분야에서도 광범위하게 응용됩니다.',
+        feature1: '거시적 편석 없음',
+        feature2: '미세하고 균일한 입자',
+        feature3: '평균 입자 크기 5-15 마이크론',
+        feature4: '조정 가능한 CTE(열팽창 계수)',
+        feature5: '우수한 열전도율',
+        showcase1: '광학 반사경',
+        showcase2: '반도체 장치',
+        showcase3: '광통신 장치',
+        showcase4: '맞춤형 반도체 재료'
+      },
+      vision: {
+        name: '분무 증착 튜브 빌렛 장비',
+        description: '분무 증착 튜브 빌렛 장비는 용융 금속을 가열하고 분무기와 불활성 가스를 혼합하여 금속 맨드릴에 분무 증착하여 관형 금속 블랭크를 형성합니다. 이 장비는 구리 합금, 강철 합금, 알루미늄 합금 등 다양한 금속 재료를 생산할 수 있습니다.',
+        feature1: '거시적 편석 없음',
+        feature2: '미세하고 균일한 입자',
+        feature3: '평균 입자 크기 20-50 마이크론',
+        feature4: '우수한 기계적 특성 및 가공성',
+        feature5: '배치 생산에 적합',
+        showcase1: '분무 증착 원형 튜브',
+        showcase2: '반고체 다이캐스트 튜브 부품',
+        showcase3: '가스 보호 분말 제조',
+        showcase4: '다양한 크기의 압출 튜브 블랭크 및 피팅'
+      },
+      servo: {
+        name: '경량 브레이크 디스크',
+        description: '고성능 서보 드라이브 시스템은 벡터 제어 기술을 사용하며 높은 토크, 높은 정밀도, 낮은 소음 등의 장점이 있습니다. 로봇, 공작 기계, 포장 기계 등 정밀한 제어가 필요한 응용 분야에서 널리 사용됩니다.',
+        feature1: '벡터 제어, 정밀도 ±0.01°까지',
+        feature2: '높은 토크 출력, 업계 선도',
+        feature3: '낮은 소음 설계, <70dB',
+        feature4: '지능형 브레이크 통합',
+        feature5: '다양한 인코더 유형 지원',
+        showcase1: '브레이크 디스크 어셈블리',
+        showcase2: '재료 클로즈업',
+        showcase3: '정밀 가공',
+        showcase4: '차량 응용'
+      },
+      hmi: {
+        name: '압출 가능 재료',
+        description: '전문 HMI 터치 스크린 디스플레이 시스템은 고화질 디스플레이, 빠른 응답, 풍부한 대화형 기능을 갖추고 있습니다. 여러 언어 및 테마 전환을 지원하며 다양한 산업 응용 시나리오에 쉽게 적응할 수 있습니다.',
+        feature1: '1080P HD 디스플레이, 정확한 색상',
+        feature2: '정전식 터치 스크린, 빠른 응답',
+        feature3: '멀티 터치 제스처 지원',
+        feature4: '풍부한 그래픽 구성 요소 라이브러리 내장',
+        feature5: '실시간 데이터 동기화 지원',
+        showcase1: '제품 외관',
+        showcase2: '압출 성형',
+        showcase3: '단조 응용',
+        showcase4: '압연 제품'
+      },
+      gateway: {
+        name: '압연 가능 재료',
+        description: '산업용 IoT 게이트웨이는 여러 통신 프로토콜을 통합하고 엣지 컴퓨팅 및 데이터 집계를 지원합니다. 수백 개의 IoT 장치를 연결하여 실시간 데이터 수집, 처리 및 업로드를 실현하며, 스마트 공장 구축을 위한 핵심 구성 요소입니다.',
+        feature1: '6종 이상의 통신 프로토콜 지원',
+        feature2: '엣지 컴퓨팅, 로컬 데이터 처리',
+        feature3: '4G/5G/WiFi/유선 네트워크 지원',
+        feature4: '실시간 데이터베이스 통합',
+        feature5: '오프라인 작업 및 데이터 캐싱 지원',
+        showcase1: '설비 전경',
+        showcase2: '제어 시스템',
+        showcase3: '실험 샘플',
+        showcase4: '작동 인터페이스'
+      }
     },
     solutions: {
       manufacturing: '신소재 개발을 위한 솔루션',
@@ -1154,7 +1476,8 @@ export const messages = {
       contact: 'संपर्क करें'
     },
     header: {
-      contactBtn: 'संपर्क करें'
+      contactBtn: 'संपर्क करें',
+      language: 'भाषा'
     },
     hero: {
       slide1: {
@@ -1215,7 +1538,85 @@ export const messages = {
       interestedSubtitle: 'अधिक जानकारी और उद्धरण के लिए हमसे संपर्क करें',
       contactUs: 'संपर्क करें',
       relatedProducts: 'संबंधित उत्पाद',
-      viewDetails: 'विवरण देखें →'
+      viewDetails: 'विवरण देखें →',
+      plc: {
+        name: 'स्प्रे डिपोजिशन इनगॉट उपकरण',
+        description: 'स्प्रे डिपोजिशन इनगॉट उपकरण पिघले हुए धातु को गर्म करके, इसे एक एटमाइज़र और निष्क्रिय गैस के साथ मिलाकर एक धातु ट्रे पर स्प्रे डिपोजिशन के माध्यम से बेलनाकार धातु ब्लैंक बनाता है। प्रसंस्करण के बाद, इससे एक्सट्रूडेड या फोर्जेड सामग्री प्राप्त की जा सकती है। यह उपकरण तांबे की मिश्रधातु, स्टील मिश्रधातु, एल्यूमीनियम मिश्रधातु और विभिन्न अन्य धातु सामग्रियों का उत्पादन कर सकता है।',
+        feature1: 'कोई मैक्रोस्कोपिक विभाजन नहीं',
+        feature2: 'सूक्ष्म और समान अनाज',
+        feature3: 'औसत अनाज आकार 20-50 माइक्रोन',
+        feature4: 'उत्कृष्ट यांत्रिक गुण और प्रसंस्करण क्षमता',
+        feature5: 'बैच उत्पादन के लिए उपयुक्त',
+        showcase1: 'स्प्रे डिपोजिटेड एल्यूमीनियम मिश्रधातु ब्लैंक',
+        showcase2: 'स्प्रे डिपोजिटेड एल्यूमीनियम मिश्रधातु फोर्जिंग',
+        showcase3: 'स्प्रे डिपोजिटेड एल्यूमीनियम मिश्रधातु एक्सट्रूडेड प्रोफाइल',
+        showcase4: 'स्प्रे डिपोजिटेड एल्यूमीनियम मिश्रधातु प्लेट'
+      },
+      sensors: {
+        name: 'गैस-संरक्षित पाउडर तैयारी उपकरण',
+        description: 'यह उत्पाद सेमीकंडक्टर उपकरण क्षेत्रों में CE मिश्र धातुओं, एल्यूमीनियम मैट्रिक्स कंपोजिट और सिलिकॉन कार्बाइड एल्यूमीनियम सामग्री के साथ व्यापक रूप से उपयोग किया जाता है, और इलेक्ट्रॉनिक पैकेजिंग और ऑप्टिकल संचार क्षेत्रों में भी व्यापक अनुप्रयोग हैं।',
+        feature1: 'कोई मैक्रोस्कोपिक विभाजन नहीं',
+        feature2: 'सूक्ष्म और समान अनाज',
+        feature3: 'औसत अनाज आकार 5-15 माइक्रोन',
+        feature4: 'समायोज्य CTE (थर्मल विस्तार गुणांक)',
+        feature5: 'उत्कृष्ट तापीय चालकता',
+        showcase1: 'ऑप्टिकल मिरर',
+        showcase2: 'सेमीकंडक्टर डिवाइस',
+        showcase3: 'ऑप्टिकल संचार डिवाइस',
+        showcase4: 'कस्टमाइज़्ड सेमीकंडक्टर सामग्री'
+      },
+      vision: {
+        name: 'स्प्रे डिपोजिशन ट्यूब ब्लैंक उपकरण',
+        description: 'स्प्रे डिपोजिशन ट्यूब ब्लैंक उपकरण पिघले हुए धातु को गर्म करके, इसे एक एटमाइज़र और निष्क्रिय गैस के साथ मिलाकर एक धातु मैंड्रेल पर स्प्रे डिपोजिशन के माध्यम से ट्यूबलर धातु ब्लैंक बनाता है। यह उपकरण तांबे की मिश्रधातु, स्टील मिश्रधातु, एल्यूमीनियम मिश्रधातु और विभिन्न अन्य धातु सामग्रियों का उत्पादन कर सकता है।',
+        feature1: 'कोई मैक्रोस्कोपिक विभाजन नहीं',
+        feature2: 'सूक्ष्म और समान अनाज',
+        feature3: 'औसत अनाज आकार 20-50 माइक्रोन',
+        feature4: 'उत्कृष्ट यांत्रिक गुण और प्रसंस्करण क्षमता',
+        feature5: 'बैच उत्पादन के लिए उपयुक्त',
+        showcase1: 'स्प्रे डिपोजिटेड गोल ट्यूब',
+        showcase2: 'अर्ध-ठोस डाई-कास्ट ट्यूब घटक',
+        showcase3: 'गैस-संरक्षित पाउडर निर्माण',
+        showcase4: 'विभिन्न आकारों के एक्सट्रूडेड ट्यूब ब्लैंक और फिटिंग'
+      },
+      servo: {
+        name: 'हल्का ब्रेक डिस्क',
+        description: 'उच्च प्रदर्शन सर्वो ड्राइव सिस्टम वेक्टर नियंत्रण प्रौद्योगिकी का उपयोग करता है, जिसमें उच्च टॉर्क, उच्च सटीकता और कम शोर जैसे लाभ हैं। यह रोबोट, मशीन टूल्स, पैकेजिंग मशीनरी और अन्य अनुप्रयोगों में व्यापक रूप से उपयोग किया जाता है जिनमें सटीक नियंत्रण की आवश्यकता होती है।',
+        feature1: 'वेक्टर नियंत्रण, सटीकता ±0.01° तक',
+        feature2: 'उच्च टॉर्क आउटपुट, उद्योग-अग्रणी',
+        feature3: 'कम शोर डिज़ाइन, <70dB',
+        feature4: 'एकीकृत बुद्धिमान ब्रेक',
+        feature5: 'विभिन्न एनकोडर प्रकारों के लिए समर्थन',
+        showcase1: 'ब्रेक डिस्क असेंबली',
+        showcase2: 'सामग्री क्लोज़-अप',
+        showcase3: 'सटीक मशीनिंग',
+        showcase4: 'वाहन अनुप्रयोग'
+      },
+      hmi: {
+        name: 'एक्सट्रूड करने योग्य सामग्री',
+        description: 'पेशेवर HMI टच स्क्रीन डिस्प्ले सिस्टम में उच्च-रिज़ॉल्यूशन डिस्प्ले, तेज़ प्रतिक्रिया और समृद्ध इंटरैक्टिव फ़ंक्शन हैं। यह कई भाषाओं और थीम स्विचिंग का समर्थन करता है, और विभिन्न औद्योगिक अनुप्रयोग परिदृश्यों के लिए आसानी से अनुकूलित हो सकता है।',
+        feature1: '1080P HD डिस्प्ले, सटीक रंग',
+        feature2: 'कैपेसिटिव टच स्क्रीन, त्वरित प्रतिक्रिया',
+        feature3: 'मल्टी-टच जेस्चर के लिए समर्थन',
+        feature4: 'अंतर्निहित समृद्ध ग्राफिक घटक पुस्तकालय',
+        feature5: 'वास्तविक समय डेटा सिंक्रनाइज़ेशन के लिए समर्थन',
+        showcase1: 'उत्पाद उपस्थिति',
+        showcase2: 'एक्सट्रूज़न फॉर्मिंग',
+        showcase3: 'फोर्जिंग अनुप्रयोग',
+        showcase4: 'रोलिंग उत्पाद'
+      },
+      gateway: {
+        name: 'रोल करने योग्य सामग्री',
+        description: 'औद्योगिक-ग्रेड IoT गेटवे कई संचार प्रोटोकॉल को एकीकृत करता है, एज कंप्यूटिंग और डेटा एग्रीगेशन का समर्थन करता है। यह सैकड़ों IoT उपकरणों को कनेक्ट कर सकता है, वास्तविक समय डेटा संग्रह, प्रसंस्करण और अपलोडिंग को प्राप्त करता है, और स्मार्ट कारखानों के निर्माण के लिए मुख्य घटक के रूप में कार्य करता है।',
+        feature1: '6+ संचार प्रोटोकॉल के लिए समर्थन',
+        feature2: 'एज कंप्यूटिंग, स्थानीय डेटा प्रसंस्करण',
+        feature3: '4G/5G/WiFi/वायर्ड नेटवर्क के लिए समर्थन',
+        feature4: 'एकीकृत वास्तविक समय डेटाबेस',
+        feature5: 'ऑफ़लाइन कार्य और डेटा कैशिंग के लिए समर्थन',
+        showcase1: 'उपकरण अवलोकन',
+        showcase2: 'नियंत्रण प्रणाली',
+        showcase3: 'प्रयोगात्मक नमूने',
+        showcase4: 'संचालन इंटरफ़ेस'
+      }
     },
     solutions: {
       manufacturing: 'स्मार्ट विनिर्माण',
@@ -1408,7 +1809,8 @@ export const messages = {
       contact: 'Contacto'
     },
     header: {
-      contactBtn: 'Contáctenos'
+      contactBtn: 'Contáctenos',
+      language: 'Idioma'
     },
     hero: {
       slide1: {
@@ -1469,7 +1871,85 @@ export const messages = {
       interestedSubtitle: 'Contáctenos para más detalles',
       contactUs: 'Contacto',
       relatedProducts: 'Relacionados',
-      viewDetails: 'Ver Detalles →'
+      viewDetails: 'Ver Detalles →',
+      plc: {
+        name: 'Equipo de Lingote por Deposición por Aspersión',
+        description: 'El equipo de lingote por deposición por aspersión forma blancos de metal cilíndricos calentando metal fundido, mezclándolo con gas inerte a través de un atomizador y depositándolo por aspersión en una bandeja de metal. Después del procesamiento, puede producir materiales extruidos o forjados. Este equipo puede producir aleaciones de cobre, aleaciones de acero, aleaciones de aluminio y varios otros materiales metálicos.',
+        feature1: 'Sin segregación macroscópica',
+        feature2: 'Granos finos y uniformes',
+        feature3: 'Tamaño promedio de grano 20-50 micras',
+        feature4: 'Excelentes propiedades mecánicas y procesabilidad',
+        feature5: 'Adecuado para producción por lotes',
+        showcase1: 'Blanco de Aleación de Aluminio Depositado por Aspersión',
+        showcase2: 'Forja de Aleación de Aluminio Depositada por Aspersión',
+        showcase3: 'Perfil Extruido de Aleación de Aluminio Depositado por Aspersión',
+        showcase4: 'Placa de Aleación de Aluminio Depositada por Aspersión'
+      },
+      sensors: {
+        name: 'Equipo de Preparación de Polvo Protegido por Gas',
+        description: 'Este producto se utiliza ampliamente en campos de equipos semiconductores con aleaciones CE, compuestos de matriz de aluminio y materiales de aluminio con carburo de silicio, y también tiene aplicaciones extensas en embalaje electrónico y campos de comunicación óptica.',
+        feature1: 'Sin segregación macroscópica',
+        feature2: 'Granos finos y uniformes',
+        feature3: 'Tamaño promedio de grano 5-15 micras',
+        feature4: 'CTE ajustable (coeficiente de expansión térmica)',
+        feature5: 'Excelente conductividad térmica',
+        showcase1: 'Espejos Ópticos',
+        showcase2: 'Dispositivos Semiconductores',
+        showcase3: 'Dispositivos de Comunicación Óptica',
+        showcase4: 'Materiales Semiconductores Personalizados'
+      },
+      vision: {
+        name: 'Equipo de Tocho Tubular por Deposición por Aspersión',
+        description: 'El equipo de tocho tubular por deposición por aspersión forma blancos de metal tubulares calentando metal fundido, mezclándolo con gas inerte a través de un atomizador y depositándolo por aspersión en un mandril de metal. Este equipo puede producir aleaciones de cobre, aleaciones de acero, aleaciones de aluminio y varios otros materiales metálicos.',
+        feature1: 'Sin segregación macroscópica',
+        feature2: 'Granos finos y uniformes',
+        feature3: 'Tamaño promedio de grano 20-50 micras',
+        feature4: 'Excelentes propiedades mecánicas y procesabilidad',
+        feature5: 'Adecuado para producción por lotes',
+        showcase1: 'Tubo Redondo Depositado por Aspersión',
+        showcase2: 'Componentes de Tubo de Fundición Semisólida',
+        showcase3: 'Fabricación de Polvo Protegido por Gas',
+        showcase4: 'Tochos de Tubo Extruido y Accesorios de Varios Tamaños'
+      },
+      servo: {
+        name: 'Disco de Freno Ligero',
+        description: 'El sistema de accionamiento servo de alto rendimiento utiliza tecnología de control vectorial, con ventajas de alto par, alta precisión y bajo ruido. Ampliamente utilizado en robots, máquinas herramienta, maquinaria de embalaje y otras aplicaciones que requieren control preciso.',
+        feature1: 'Control vectorial, precisión de hasta ±0.01°',
+        feature2: 'Salida de alto par, líder en la industria',
+        feature3: 'Diseño de bajo ruido, <70dB',
+        feature4: 'Freno inteligente integrado',
+        feature5: 'Soporte para varios tipos de codificadores',
+        showcase1: 'Conjunto de Disco de Freno',
+        showcase2: 'Primer Plano del Material',
+        showcase3: 'Mecanizado de Precisión',
+        showcase4: 'Aplicación en Vehículos'
+      },
+      hmi: {
+        name: 'Material Extruible',
+        description: 'Sistema de pantalla táctil HMI profesional con pantalla de alta definición, respuesta rápida y funciones interactivas ricas. Admite múltiples idiomas y cambio de temas, adaptándose fácilmente a varios escenarios de aplicaciones industriales.',
+        feature1: 'Pantalla HD 1080P, colores precisos',
+        feature2: 'Pantalla táctil capacitiva, respuesta rápida',
+        feature3: 'Soporte para gestos multitáctiles',
+        feature4: 'Biblioteca de componentes gráficos integrada rica',
+        feature5: 'Soporte para sincronización de datos en tiempo real',
+        showcase1: 'Apariencia del Producto',
+        showcase2: 'Formación por Extrusión',
+        showcase3: 'Aplicación de Forja',
+        showcase4: 'Productos Laminados'
+      },
+      gateway: {
+        name: 'Material Laminable',
+        description: 'Puerta de enlace IoT de grado industrial que integra múltiples protocolos de comunicación, admite computación en el borde y agregación de datos. Puede conectar cientos de dispositivos IoT, logrando la recopilación, procesamiento y carga de datos en tiempo real, sirviendo como componente central para construir fábricas inteligentes.',
+        feature1: 'Soporte para más de 6 protocolos de comunicación',
+        feature2: 'Computación en el borde, procesamiento de datos local',
+        feature3: 'Soporte para redes 4G/5G/WiFi/cableadas',
+        feature4: 'Base de datos en tiempo real integrada',
+        feature5: 'Soporte para trabajo sin conexión y almacenamiento en caché de datos',
+        showcase1: 'Vista General del Equipo',
+        showcase2: 'Sistema de Control',
+        showcase3: 'Muestras Experimentales',
+        showcase4: 'Interfaz de Operación'
+      }
     },
     solutions: {
       manufacturing: 'Fabricación Inteligente',
@@ -1662,7 +2142,8 @@ export const messages = {
       contact: 'اتصل بنا'
     },
     header: {
-      contactBtn: 'اتصل بنا'
+      contactBtn: 'اتصل بنا',
+      language: 'اللغة'
     },
     hero: {
       slide1: {
@@ -1723,7 +2204,85 @@ export const messages = {
       interestedSubtitle: 'اتصل بنا لمزيد من التفاصيل',
       contactUs: 'اتصل بنا',
       relatedProducts: 'منتجات ذات صلة',
-      viewDetails: 'عرض التفاصيل ←'
+      viewDetails: 'عرض التفاصيل ←',
+      plc: {
+        name: 'معدات السبائك بالترسيب بالرش',
+        description: 'تشكل معدات السبائك بالترسيب بالرش قوالب معدنية أسطوانية عن طريق تسخين المعدن المنصهر، وخلطه مع الغاز الخامل من خلال جهاز التذرية وترسيبه بالرش على صينية معدنية. بعد المعالجة، يمكن إنتاج مواد مبثوقة أو مطروقة. يمكن لهذه المعدات إنتاج سبائك النحاس وسبائك الفولاذ وسبائك الألومنيوم ومواد معدنية أخرى متنوعة.',
+        feature1: 'لا يوجد فصل مجهري',
+        feature2: 'حبيبات دقيقة وموحدة',
+        feature3: 'متوسط حجم الحبيبات 20-50 ميكرون',
+        feature4: 'خصائص ميكانيكية وقابلية معالجة ممتازة',
+        feature5: 'مناسب للإنتاج على دفعات',
+        showcase1: 'قالب سبيكة الألومنيوم المترسب بالرش',
+        showcase2: 'مطروقات سبيكة الألومنيوم المترسبة بالرش',
+        showcase3: 'ملف تعريف مبثوق من سبيكة الألومنيوم المترسب بالرش',
+        showcase4: 'لوحة سبيكة الألومنيوم المترسبة بالرش'
+      },
+      sensors: {
+        name: 'معدات إعداد المسحوق المحمي بالغاز',
+        description: 'يستخدم هذا المنتج على نطاق واسع في مجالات معدات أشباه الموصلات مع سبائك CE، والمواد المركبة من مصفوفة الألومنيوم، ومواد كربيد السيليكون الألومنيوم، ولديه أيضًا تطبيقات واسعة في التغليف الإلكتروني ومجالات الاتصالات البصرية.',
+        feature1: 'لا يوجد فصل مجهري',
+        feature2: 'حبيبات دقيقة وموحدة',
+        feature3: 'متوسط حجم الحبيبات 5-15 ميكرون',
+        feature4: 'CTE قابل للتعديل (معامل التمدد الحراري)',
+        feature5: 'توصيل حراري ممتاز',
+        showcase1: 'مرايا بصرية',
+        showcase2: 'أجهزة أشباه الموصلات',
+        showcase3: 'أجهزة الاتصالات البصرية',
+        showcase4: 'مواد أشباه موصلات مخصصة'
+      },
+      vision: {
+        name: 'معدات قوالب الأنابيب بالترسيب بالرش',
+        description: 'تشكل معدات قوالب الأنابيب بالترسيب بالرش قوالب معدنية أنبوبية عن طريق تسخين المعدن المنصهر، وخلطه مع الغاز الخامل من خلال جهاز التذرية وترسيبه بالرش على محور معدني. يمكن لهذه المعدات إنتاج سبائك النحاس وسبائك الفولاذ وسبائك الألومنيوم ومواد معدنية أخرى متنوعة.',
+        feature1: 'لا يوجد فصل مجهري',
+        feature2: 'حبيبات دقيقة وموحدة',
+        feature3: 'متوسط حجم الحبيبات 20-50 ميكرون',
+        feature4: 'خصائص ميكانيكية وقابلية معالجة ممتازة',
+        feature5: 'مناسب للإنتاج على دفعات',
+        showcase1: 'أنبوب دائري مترسب بالرش',
+        showcase2: 'مكونات أنابيب صب شبه صلبة',
+        showcase3: 'صنع المسحوق المحمي بالغاز',
+        showcase4: 'قوالب أنابيب مبثوقة وتركيبات بأحجام مختلفة'
+      },
+      servo: {
+        name: 'قرص فرامل خفيف الوزن',
+        description: 'يستخدم نظام محرك سيرفو عالي الأداء تقنية التحكم المتجه، مع مزايا عزم الدوران العالي والدقة العالية والضوضاء المنخفضة. يستخدم على نطاق واسع في الروبوتات وأدوات الآلات وآلات التعبئة والتطبيقات الأخرى التي تتطلب تحكمًا دقيقًا.',
+        feature1: 'تحكم متجه، دقة تصل إلى ±0.01°',
+        feature2: 'خرج عزم دوران عالي، رائد في الصناعة',
+        feature3: 'تصميم منخفض الضوضاء، <70 ديسيبل',
+        feature4: 'فرامل ذكية متكاملة',
+        feature5: 'دعم لأنواع مختلفة من المشفرات',
+        showcase1: 'مجموعة قرص الفرامل',
+        showcase2: 'لقطة مقربة للمادة',
+        showcase3: 'تشغيل دقيق',
+        showcase4: 'تطبيق المركبات'
+      },
+      hmi: {
+        name: 'مادة قابلة للبثق',
+        description: 'نظام عرض شاشة لمس HMI احترافي مع عرض عالي الدقة واستجابة سريعة ووظائف تفاعلية غنية. يدعم لغات متعددة وتبديل السمات، مما يتكيف بسهولة مع سيناريوهات التطبيقات الصناعية المختلفة.',
+        feature1: 'شاشة HD 1080P، ألوان دقيقة',
+        feature2: 'شاشة لمس سعوية، استجابة سريعة',
+        feature3: 'دعم لإيماءات اللمس المتعدد',
+        feature4: 'مكتبة مكونات رسومية غنية مدمجة',
+        feature5: 'دعم لمزامنة البيانات في الوقت الفعلي',
+        showcase1: 'مظهر المنتج',
+        showcase2: 'تشكيل البثق',
+        showcase3: 'تطبيق الطرق',
+        showcase4: 'منتجات الدرفلة'
+      },
+      gateway: {
+        name: 'مادة قابلة للدرفلة',
+        description: 'بوابة إنترنت الأشياء ذات الدرجة الصناعية التي تدمج بروتوكولات اتصال متعددة، وتدعم الحوسبة الطرفية وتجميع البيانات. يمكنها توصيل مئات من أجهزة إنترنت الأشياء، وتحقيق جمع البيانات ومعالجتها وتحميلها في الوقت الفعلي، وتعمل كمكون أساسي لبناء مصانع ذكية.',
+        feature1: 'دعم لأكثر من 6 بروتوكولات اتصال',
+        feature2: 'الحوسبة الطرفية، معالجة البيانات المحلية',
+        feature3: 'دعم لشبكات 4G/5G/WiFi/السلكية',
+        feature4: 'قاعدة بيانات في الوقت الفعلي متكاملة',
+        feature5: 'دعم للعمل دون اتصال وتخزين البيانات مؤقتًا',
+        showcase1: 'نظرة عامة على المعدات',
+        showcase2: 'نظام التحكم',
+        showcase3: 'عينات تجريبية',
+        showcase4: 'واجهة التشغيل'
+      }
     },
     solutions: {
       manufacturing: 'تصنيع ذكي',

@@ -22,9 +22,9 @@
         >
           <!-- 产品图片 -->
           <div class="product-image">
-            <img :src="product.image" :alt="product.name" />
+            <img :src="product.image" :alt="product.name" loading="lazy" />
             <div v-if="product.showLink" class="product-overlay">
-              <router-link :to="product.link" class="btn btn-primary">
+              <router-link :to="product.link" class="btn btn-primary overlay-btn">
                 {{ t("home.learnMore") }}
               </router-link>
             </div>
@@ -37,7 +37,7 @@
 
             <!-- 前三个产品显示了解更多链接 -->
             <router-link v-if="product.showLink" :to="product.link" class="product-link">
-              {{ t("home.learnMore") }}
+              {{ t("home.learnMore") }} →
             </router-link>
 
             <!-- 产品特点标签 -->
@@ -171,6 +171,7 @@ export default {
   border-radius: var(--radius-lg);
   overflow: hidden;
   transition: all var(--transition-base);
+  box-shadow: var(--shadow-md);
 }
 
 .product-card:hover {
@@ -184,6 +185,8 @@ export default {
   width: 100%;
   height: 240px;
   overflow: hidden;
+  background-color: var(--color-bg-secondary);
+  isolation: isolate;
 }
 
 .product-image img {
@@ -191,6 +194,9 @@ export default {
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition-slow);
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 .product-card:hover .product-image img {
@@ -210,10 +216,17 @@ export default {
   justify-content: center;
   opacity: 0;
   transition: opacity var(--transition-base);
+  z-index: 10;
 }
 
 .product-card:hover .product-overlay {
   opacity: 1;
+}
+
+.overlay-btn {
+  white-space: nowrap;
+  z-index: 11;
+  text-decoration: none;
 }
 
 /* 产品信息 */
@@ -269,6 +282,10 @@ export default {
   .product-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .product-image {
+    height: 220px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -287,6 +304,74 @@ export default {
   .product-grid {
     grid-template-columns: 1fr;
     gap: var(--spacing-lg);
+  }
+
+  /* 移动端：图片高度调整 */
+  .product-image {
+    height: 250px;
+    min-height: 250px;
+  }
+
+  /* 移动端：确保图片正确显示 */
+  .product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* 移动端：隐藏图片上的遮罩层和按钮 */
+  .product-overlay {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  /* 移动端：图片不缩放 */
+  .product-card:hover .product-image img {
+    transform: scale(1);
+  }
+
+  /* 移动端：移除hover时的遮罩层变化 */
+  .product-card:hover .product-overlay {
+    display: none !important;
+  }
+
+  /* 移动端：卡片悬浮效果减弱 */
+  .product-card:hover {
+    transform: translateY(0);
+    box-shadow: var(--shadow-md);
+  }
+
+  /* 移动端：产品信息区域的链接更明显 */
+  .product-link {
+    display: block;
+    text-align: center;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--color-primary);
+    color: white !important;
+    border-radius: var(--radius-md);
+    margin-top: var(--spacing-md);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-semibold);
+    text-decoration: none;
+  }
+
+  .product-link:hover {
+    color: white !important;
+    background: var(--color-primary-dark);
+  }
+
+  /* 移动端：产品名称字体调整 */
+  .product-name {
+    font-size: var(--font-size-lg);
+    text-align: center;
+  }
+
+  /* 移动端：产品信息区域 */
+  .product-info {
+    padding: var(--spacing-lg) var(--spacing-md);
   }
 }
 </style>
