@@ -5,6 +5,7 @@
 
 import { ref, computed } from 'vue'
 import { t as translate } from '@/locales'
+import { updatePageMeta } from '@/utils/seo'
 
 // 全局语言状态（在模块顶层定义，所有组件共享）
 // 默认英文，如果用户之前选择过语言则使用用户选择的语言
@@ -24,6 +25,31 @@ export function useLanguage() {
     localStorage.setItem('locale', locale)
     // 更新HTML lang属性
     document.documentElement.lang = locale
+
+    // 更新SEO Meta标签（用于搜索引擎优化）
+    // 根据当前路由路径确定页面类型
+    const path = window.location.pathname
+    let pageKey = 'default'
+
+    if (path.includes('/products/')) {
+      const match = path.match(/\/products\/(\w+)/)
+      if (match) {
+        pageKey = `products-${match[1]}`
+      }
+    } else if (path === '/products') {
+      pageKey = 'products'
+    } else if (path.includes('/solutions')) {
+      pageKey = 'solutions'
+    } else if (path.includes('/about')) {
+      pageKey = 'about'
+    } else if (path.includes('/contact')) {
+      pageKey = 'contact'
+    } else if (path.includes('/faq')) {
+      pageKey = 'faq'
+    }
+
+    // 更新当前页面的SEO标签为新语言
+    updatePageMeta(pageKey, locale)
   }
 
   /**

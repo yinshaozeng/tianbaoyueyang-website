@@ -4,6 +4,8 @@
  */
 
 import { createRouter, createWebHistory } from 'vue-router'
+import { updatePageMeta, updateCanonicalUrl } from '@/utils/seo'
+import { useLanguage } from '@/composables/useLanguage'
 
 // 导入页面组件
 import Home from '@/views/Home.vue'
@@ -67,7 +69,14 @@ const routes = [
     }
   },
   {
-    // 404页面 - 匹配所有未定义的路由
+    path: '/faq',
+    name: 'faq',
+    component: () => import('@/views/FAQ.vue'),
+    meta: {
+      title: 'FAQ - Spray Deposition & Gas Atomization | Tianjin Yueyang'
+    }
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: 'notFound',
     component: () => import('@/views/NotFound.vue'),
@@ -114,8 +123,39 @@ router.beforeEach((to, from, next) => {
  * 在每次路由切换后执行
  */
 router.afterEach((to, from) => {
-  // 可以在这里添加页面访问统计等逻辑
+  // 页面访问统计
   console.log(`导航到: ${to.path}`)
+
+  // 获取当前语言（与 useLanguage 共享同一个状态，默认英文）
+  const { currentLocale } = useLanguage()
+  const lang = currentLocale.value
+
+  // 根据路由路径确定SEO配置key
+  let pageKey = 'default'
+
+  if (to.path.includes('/products/')) {
+    // 产品详情页
+    const productType = to.params.type
+    if (productType) {
+      pageKey = `products-${productType}`
+    }
+  } else if (to.path === '/products') {
+    pageKey = 'products'
+  } else if (to.path.includes('/about')) {
+    pageKey = 'about'
+  } else if (to.path.includes('/contact')) {
+    pageKey = 'contact'
+  } else if (to.path.includes('/solutions')) {
+    pageKey = 'solutions'
+  } else if (to.path.includes('/faq')) {
+    pageKey = 'faq'
+  }
+
+  // 更新页面Meta标签（用于SEO优化）
+  updatePageMeta(pageKey, lang)
+
+  // 更新Canonical URL
+  updateCanonicalUrl(to.path)
 })
 
 export default router

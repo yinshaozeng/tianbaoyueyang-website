@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/"/>
+  </url>
+
+  <!-- Products Page -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products"/>
+  </url>
+
+  <!-- Spray Deposition Ingot Equipment -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products/plc</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products/plc"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products/plc"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products/plc"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products/plc"/>
+  </url>
+
+  <!-- Gas Atomization Powder Equipment -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products/sensors</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products/sensors"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products/sensors"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products/sensors"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products/sensors"/>
+  </url>
+
+  <!-- Spray Deposition Tube Billet Equipment -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products/vision</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products/vision"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products/vision"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products/vision"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products/vision"/>
+  </url>
+
+  <!-- Lightweight Brake Disc -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products/servo</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products/servo"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products/servo"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products/servo"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products/servo"/>
+  </url>
+
+  <!-- Extruded Profiles -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products/hmi</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products/hmi"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products/hmi"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products/hmi"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products/hmi"/>
+  </url>
+
+  <!-- Rolled Sheet Materials -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/products/gateway</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/products/gateway"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/products/gateway"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/products/gateway"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/products/gateway"/>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/about</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/about"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/about"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/about"/>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/contact</loc>
+    <lastmod>2024-11-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/contact"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/contact"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/contact"/>
+  </url>
+  <!-- FAQ -->
+  <url>
+    <loc>https://www.tianbaoyueyang.com/faq</loc>
+    <lastmod>2026-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.tianbaoyueyang.com/en/faq"/>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://www.tianbaoyueyang.com/zh/faq"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://www.tianbaoyueyang.com/ja/faq"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://www.tianbaoyueyang.com/ko/faq"/>
+  </url>
+
+</urlset>

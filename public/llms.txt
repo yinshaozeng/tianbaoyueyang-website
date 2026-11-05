@@ -1,0 +1,39 @@
+# Tianjin Yueyang Machinery Manufacturing Co., Ltd.
+
+> Professional manufacturer of spray deposition, spray forming, gas atomization, and powder production equipment with 20+ years of experience. Based in Tianjin, China, serving aerospace, automotive, semiconductor, and electronic packaging industries worldwide.
+
+Tianjin Yueyang (天津越洋机械有限公司) designs and builds advanced metal-forming and powder-production equipment. Core technologies: spray deposition (spray forming), gas-protected gas atomization for metal powders, and spray-deposited tube billet manufacturing. The company holds an R&D team of 30+ members including 5 PhDs and 15 Masters, and is ISO certified with worldwide shipping.
+
+## Core Products
+- [Spray Deposition Ingot Equipment](https://www.tianbaoyueyang.com/en/products/plc): Produces aluminum, copper, and steel alloy ingots with fine grain structure (20-50 microns) and no macroscopic segregation.
+- [Gas Atomization Powder Equipment](https://www.tianbaoyueyang.com/en/products/sensors): Gas-protected powder preparation for semiconductor, electronic packaging, and optical communication. Produces fine metal powders with 5-15 micron grain size.
+- [Spray Deposition Tube Billet Equipment](https://www.tianbaoyueyang.com/en/products/vision): Produces tubular metal blanks of copper, steel, and aluminum alloys with excellent mechanical properties.
+
+## Industries Served
+Aerospace, automotive lightweighting, semiconductor devices, electronic packaging, optical communication, new materials R&D, university and research laboratories.
+
+## Key Technical Capabilities
+- Spray deposition / spray forming: molten metal atomized with inert gas and deposited onto substrate, producing materials with no macroscopic segregation and uniform 20-50 micron grain size.
+- Gas atomization powder production: gas-protected process yielding 5-15 micron fine metal powders with adjustable CTE (coefficient of thermal expansion) and high thermal conductivity.
+- Materials produced are suitable for downstream extrusion, forging, and rolling.
+
+## Company Facts
+- Founded with 20+ years of industry experience
+- 30+ R&D team members (5 PhDs, 15 Masters)
+- Location: No.7 Baozhong Road, Energy-saving and Environmental Protection Industrial Zone, Baodi District, Tianjin, China 301800
+- Contact: admin@tianbaoyueyang.com | +86-22-22539988
+- Languages supported: English, Chinese, Japanese, Korean
+- ISO certified, worldwide shipping
+
+## Important Pages
+- [Home](https://www.tianbaoyueyang.com/en/)
+- [About Us](https://www.tianbaoyueyang.com/en/about)
+- [Solutions](https://www.tianbaoyueyang.com/en/solutions)
+- [Contact](https://www.tianbaoyueyang.com/en/contact)
+- [FAQ - Spray Deposition & Gas Atomization](https://www.tianbaoyueyang.com/en/faq)
+- [Spray Deposition Ingot Equipment](https://www.tianbaoyueyang.com/en/products/plc)
+- [Gas Atomization Powder Equipment](https://www.tianbaoyueyang.com/en/products/sensors)
+- [Spray Deposition Tube Billet Equipment](https://www.tianbaoyueyang.com/en/products/vision)
+
+## About This File
+This llms.txt file is provided for large language models and AI assistants to better understand this website's content and offerings. For human visitors, please visit https://www.tianbaoyueyang.com

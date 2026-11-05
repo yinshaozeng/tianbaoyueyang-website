@@ -9,21 +9,21 @@
       <div class="header-content">
         <!-- Logo区域 -->
         <router-link to="/" class="logo">
-          <img src="@/image/imagesthree.jpg" alt="企业自动化" class="logo-image" />
+          <img
+            src="@/image/imagesthree.jpg"
+            alt="企业自动化"
+            class="logo-image"
+          />
         </router-link>
 
         <!-- 桌面端导航菜单 -->
         <nav class="nav-desktop hide-mobile">
           <ul class="nav-list">
-            <li
-              v-for="item in navItems"
-              :key="item.path"
-              class="nav-item"
-            >
+            <li v-for="item in navItems" :key="item.path" class="nav-item">
               <router-link
                 :to="item.path"
                 class="nav-link"
-                :class="{ 'active': isActiveRoute(item.path) }"
+                :class="{ active: isActiveRoute(item.path) }"
               >
                 {{ item.name }}
               </router-link>
@@ -61,7 +61,7 @@
                   v-for="lang in languages"
                   :key="lang.code"
                   class="language-option"
-                  :class="{ 'active': currentLanguage.code === lang.code }"
+                  :class="{ active: currentLanguage.code === lang.code }"
                   @click="changeLanguage(lang)"
                 >
                   <span class="flag">{{ lang.flag }}</span>
@@ -73,7 +73,7 @@
 
           <!-- 联系我们按钮 -->
           <router-link to="/contact" class="btn btn-primary">
-            {{ t('header.contactBtn') }}
+            {{ t("header.contactBtn") }}
           </router-link>
         </div>
 
@@ -83,7 +83,7 @@
           @click="toggleMobileMenu"
           aria-label="菜单"
         >
-          <span class="hamburger" :class="{ 'open': isMobileMenuOpen }">
+          <span class="hamburger" :class="{ open: isMobileMenuOpen }">
             <span></span>
             <span></span>
             <span></span>
@@ -114,13 +114,15 @@
 
           <!-- 移动端语言切换 -->
           <div class="mobile-language-section">
-            <div class="mobile-section-title">{{ t('header.language') || '语言 / Language' }}</div>
+            <div class="mobile-section-title">
+              {{ t("header.language") || "语言 / Language" }}
+            </div>
             <div class="mobile-language-grid">
               <button
                 v-for="lang in languages"
                 :key="lang.code"
                 class="mobile-language-btn"
-                :class="{ 'active': currentLanguage.code === lang.code }"
+                :class="{ active: currentLanguage.code === lang.code }"
                 @click="changeLanguage(lang)"
               >
                 <span class="flag">{{ lang.flag }}</span>
@@ -136,7 +138,7 @@
               class="btn btn-primary btn-large mobile-contact-btn"
               @click="closeMobileMenu"
             >
-              {{ t('header.contactBtn') }}
+              {{ t("header.contactBtn") }}
             </router-link>
           </div>
         </nav>
@@ -146,135 +148,139 @@
 </template>
 
 <script>
-import { ref, computed, onMounted, onUnmounted } from 'vue'
-import { useRoute } from 'vue-router'
-import { useLanguage } from '@/composables/useLanguage'
+import { ref, computed, onMounted, onUnmounted } from "vue";
+import { useRoute } from "vue-router";
+import { useLanguage } from "@/composables/useLanguage";
 
 export default {
-  name: 'Header',
+  name: "Header",
 
   setup() {
-    const route = useRoute()
-    const { currentLanguage, setLocale, t } = useLanguage()
+    const route = useRoute();
+    const { currentLanguage, setLocale, t } = useLanguage();
 
     // 响应式数据
-    const isScrolled = ref(false)           // 是否滚动
-    const isMobileMenuOpen = ref(false)     // 移动端菜单是否打开
-    const isLanguageMenuOpen = ref(false)   // 语言菜单是否打开
+    const isScrolled = ref(false); // 是否滚动
+    const isMobileMenuOpen = ref(false); // 移动端菜单是否打开
+    const isLanguageMenuOpen = ref(false); // 语言菜单是否打开
 
     /**
      * 多语言配置
      */
     const languages = [
-      { code: 'en', name: 'English', flag: '🇺🇸' },
-      { code: 'ja', name: '日本語', flag: '🇯🇵' },
-      { code: 'ko', name: '한국어', flag: '🇰🇷' },
-      { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
-      { code: 'es', name: 'Español', flag: '🇪🇸' },
-      { code: 'ar', name: 'العربية', flag: '🇸🇦' },
-      { code: 'zh', name: '中文', flag: '🇨🇳' }
-    ]
+      { code: "en", name: "English", flag: "🇺🇸" },
+      { code: "zh", name: "中文", flag: "🇨🇳" },
+      { code: "ja", name: "日本語", flag: "🇯🇵" },
+      { code: "ko", name: "한국어", flag: "🇰🇷" },
+      { code: "hi", name: "हिन्दी", flag: "🇮🇳" },
+      { code: "es", name: "Español", flag: "🇪🇸" },
+      { code: "ar", name: "العربية", flag: "🇸🇦" },
+    ];
 
     /**
      * 导航菜单配置 - 使用计算属性确保语言切换时更新
      */
     const navItems = computed(() => [
       {
-        name: t('nav.home'),
-        path: '/'
+        name: t("nav.home"),
+        path: "/",
       },
       {
-        name: t('nav.solutions'),
-        path: '/solutions'
+        name: t("nav.solutions"),
+        path: "/solutions",
       },
       {
-        name: t('nav.about'),
-        path: '/about'
+        name: t("nav.about"),
+        path: "/about",
       },
       {
-        name: t('nav.contact'),
-        path: '/contact'
-      }
-    ])
+        name: t("nav.faq"),
+        path: "/faq",
+      },
+      {
+        name: t("nav.contact"),
+        path: "/contact",
+      },
+    ]);
 
     /**
      * 监听滚动事件
      * 滚动超过50px时改变头部样式
      */
     const handleScroll = () => {
-      isScrolled.value = window.scrollY > 50
-    }
+      isScrolled.value = window.scrollY > 50;
+    };
 
     /**
      * 切换移动端菜单
      */
     const toggleMobileMenu = () => {
-      isMobileMenuOpen.value = !isMobileMenuOpen.value
+      isMobileMenuOpen.value = !isMobileMenuOpen.value;
 
       // 防止背景滚动
       if (isMobileMenuOpen.value) {
-        document.body.style.overflow = 'hidden'
+        document.body.style.overflow = "hidden";
       } else {
-        document.body.style.overflow = ''
+        document.body.style.overflow = "";
       }
-    }
+    };
 
     /**
      * 关闭移动端菜单
      */
     const closeMobileMenu = () => {
-      isMobileMenuOpen.value = false
-      document.body.style.overflow = ''
-    }
+      isMobileMenuOpen.value = false;
+      document.body.style.overflow = "";
+    };
 
     /**
      * 切换语言菜单
      */
     const toggleLanguageMenu = () => {
-      isLanguageMenuOpen.value = !isLanguageMenuOpen.value
-    }
+      isLanguageMenuOpen.value = !isLanguageMenuOpen.value;
+    };
 
     /**
      * 切换语言
      */
     const changeLanguage = (lang) => {
-      setLocale(lang.code)
-      isLanguageMenuOpen.value = false
+      setLocale(lang.code);
+      isLanguageMenuOpen.value = false;
 
       // 移动端切换语言后关闭菜单
       if (isMobileMenuOpen.value) {
-        closeMobileMenu()
+        closeMobileMenu();
       }
 
       // 页面会自动重新渲染，因为所有文本都是响应式的
-      console.log('语言已切换到:', lang.name)
-    }
+      console.log("语言已切换到:", lang.name);
+    };
 
     /**
      * 判断当前路由是否激活
      */
     const isActiveRoute = (path) => {
-      if (path === '/') {
-        return route.path === '/'
+      if (path === "/") {
+        return route.path === "/";
       }
-      return route.path.startsWith(path)
-    }
+      return route.path.startsWith(path);
+    };
 
     // 生命周期钩子
     onMounted(() => {
-      window.addEventListener('scroll', handleScroll)
+      window.addEventListener("scroll", handleScroll);
       // 点击外部关闭语言菜单
-      document.addEventListener('click', (e) => {
-        if (!e.target.closest('.language-selector')) {
-          isLanguageMenuOpen.value = false
+      document.addEventListener("click", (e) => {
+        if (!e.target.closest(".language-selector")) {
+          isLanguageMenuOpen.value = false;
         }
-      })
-    })
+      });
+    });
 
     onUnmounted(() => {
-      window.removeEventListener('scroll', handleScroll)
-      document.body.style.overflow = '' // 清理
-    })
+      window.removeEventListener("scroll", handleScroll);
+      document.body.style.overflow = ""; // 清理
+    });
 
     return {
       isScrolled,
@@ -288,10 +294,10 @@ export default {
       toggleLanguageMenu,
       changeLanguage,
       isActiveRoute,
-      t
-    }
-  }
-}
+      t,
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -381,7 +387,7 @@ export default {
 
 /* 导航链接悬停效果 */
 .nav-link::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
