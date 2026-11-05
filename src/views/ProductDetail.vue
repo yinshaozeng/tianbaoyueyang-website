@@ -716,12 +716,14 @@ export default {
   }
 
   .showcase-item {
-    margin: 0 auto;
+    margin: 0;
+    width: 100%;
     max-width: 100%;
   }
 
   .showcase-image {
     height: 200px;
+    width: 100%;
   }
 
   .showcase-image img {
