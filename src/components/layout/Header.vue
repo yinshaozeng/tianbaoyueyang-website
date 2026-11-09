@@ -111,7 +111,6 @@
               </router-link>
             </li>
           </ul>
-
           <!-- 移动端语言切换 -->
           <div class="mobile-language-section">
             <div class="mobile-section-title">
