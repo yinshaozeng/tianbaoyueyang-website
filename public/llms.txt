@@ -25,6 +25,10 @@ Aerospace, automotive lightweighting, semiconductor devices, electronic packagin
 - Languages supported: English, Chinese, Japanese, Korean
 - ISO certified, worldwide shipping
 
+## Core Keywords
+Chinese: 喷射沉积, 喷射成形, 快速凝固, 气雾化制粉, 锭坯, 管坯, 惰性气体雾化, 粉末冶金, 铝基复合材料, 碳化硅铝
+English: spray deposition, spray forming, Osprey process, rapid solidification, gas atomization, billet, tube blank, inert gas atomization, powder metallurgy, aluminum matrix composites, SiC/Al materials
+
 ## Important Pages
 - [Home](https://www.tianbaoyueyang.com/en/)
 - [About Us](https://www.tianbaoyueyang.com/en/about)

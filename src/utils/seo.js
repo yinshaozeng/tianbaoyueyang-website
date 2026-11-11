@@ -9,22 +9,37 @@ export const seoConfig = {
     en: {
       title: 'Spray Deposition & Spray Forming Equipment | Gas Atomization | Powder Production',
       description: 'Professional spray deposition, spray forming, gas atomization and powder production equipment manufacturer. 20+ years experience. Custom metal powder solutions for aerospace, automotive, semiconductor industries.',
-      keywords: 'spray deposition, spray forming, gas atomization, powder production equipment, metal powder manufacturing, powder metallurgy, atomization equipment'
+      keywords: 'spray deposition, spray forming, rapid solidification, gas atomization, metal powder atomization, powder metallurgy, billet, tube blank, inert gas atomization, Osprey process, aluminum matrix composites, SiC/Al electronic packaging, CE alloy, copper alloy, aluminum alloy, steel alloy, lightweight brake disc, extruded profiles, rolled sheets, aerospace materials, automotive lightweighting, laboratory research equipment, powder production equipment, metal powder manufacturing, spray forming equipment, hollow billet, inert gas atomization equipment'
     },
     zh: {
       title: '喷射沉积设备 | 快速凝固 | 气雾化制粉 | 天津越洋机械',
       description: '专业喷射沉积、快速凝固、气雾化制粉技术服务商。20余年粉末冶金行业经验，为航空航天、汽车、半导体行业提供先进材料解决方案。',
-      keywords: '喷射沉积, 快速凝固, 气雾化制粉, 粉末冶金, 金属粉末制备, 喷射成形, 雾化设备'
+      keywords: '喷射沉积, 喷射成形, 喷射成型, 快速凝固, 气雾化制粉, 制粉设备, 粉末冶金, 金属粉末制备, 惰性气体雾化, 锭坯, 喷射沉积锭坯, 管坯, 喷射沉积管坯, 铝基复合材料, 碳化硅铝, SiC/Al材料, CE合金, 铜合金, 铝合金, 钢合金, 电子封装粉末, 轻量化刹车盘, 挤压型材, 轧制板材, 航空航天材料, 汽车轻量化, 实验室科研设备'
     },
     ja: {
       title: 'スプレー堆積装置 | 急速凝固 | ガスアトマイゼーション粉末製造',
       description: 'プロフェッショナルなスプレー堆積、急速凝固、ガスアトマイゼーション粉末製造装置。20年以上の先進粉末冶金ソリューション経験。',
-      keywords: 'スプレー堆積, 急速凝固, ガスアトマイゼーション, 粉末冶金, 金属粉末製造'
+      keywords: 'スプレー堆積, スプレーフォーミング, 噴射成形, 急速凝固, 急冷凝固, ガスアトマイゼーション, ガスアトマイズ, 不活性ガスアトマイゼーション, 粉末冶金, 金属粉末製造, 粉末製造, ビレット, 管状ビレット, アルミニウム基複合材料, SiC/Alマテリアル, CEアロイ, 炭化ケイ素アルミニウム, 銅合金, アルミニウム合金, 鋼合金, 電子パッケージング用粉末, 軽量ブレーキディスク, 押出型材, 圧延板材, 航空宇宙材料'
     },
     ko: {
       title: '분무 증착 장비 | 급속 응고 | 가스 분무 분말 제조',
       description: '전문 분무 증착, 급속 응고 및 가스 분무 분말 제조 장비. 20년 이상의 선진 분말 야금 솔루션 경험.',
-      keywords: '분무 증착, 급속 응고, 가스 분무, 분말 야금, 금속 분말 제조'
+      keywords: '분무 증착, 스프레이 포밍, 분무 성형, 급속응고, 가스 분무, 가스 아토마이징, 불활성 가스 분무, 분말 야금, 금속 분말 제조, 분말 제조, 빌렛, 관형 빌렛, 알루미늄 기지 복합재료, SiC/Al 재료, CE 합금, 탄화규소 알루미늄, 구리 합금, 알루미늄 합금, 강철 합금, 전자 패키징 분말, 경량 브레이크 디스크, 압출 프로파일, 압연 판재, 항공우주 재료, 자동차 경량화'
+    },
+    hi: {
+      title: 'स्प्रे डिपॉजिशन और स्प्रे फॉर्मिंग उपकरण | गैस परमाणुकरण | धातु चूर्ण उत्पादन',
+      description: 'पेशेवर स्प्रे डिपॉजिशन, स्प्रे फॉर्मिंग, गैस परमाणुकरण और धातु चूर्ण उत्पादन उपकरण निर्माता। 20+ वर्षों का अनुभव। एयरोस्पेस, ऑटोमोटिव, सेमीकंडक्टर उद्योगों के लिए अनुकूलित समाधान।',
+      keywords: 'स्प्रे डिपॉजिशन, स्प्रे फॉर्मिंग, तीव्र ठोसीकरण, गैस परमाणुकरण, धातु चूर्ण उत्पादन, धातु चूर्ण परमाणुकरण, पाउडर धातुकर्म, बिलेट, इंगट निर्माण, ट्यूब ब्लैंक, अक्रिय गैस परमाणुकरण, एल्युमीनियम मिश्र धातु कम्पोजिट, SiC/Al सामग्री, सिलिकॉन कार्बाइड एल्युमीनियम, CE मिश्र धातु, तांबे की मिश्र धातु, एल्युमीनियम मिश्र धातु, स्टील मिश्र धातु, इलेक्ट्रॉनिक पैकेजिंग सामग्री, हल्के ब्रेक डिस्क, एक्सट्रूज़न प्रोफाइल, रोल्ड शीट, एयरोस्पेस सामग्री, ऑटोमोटिव लाइटवेटिंग, अनुसंधान प्रयोगशाला उपकरण'
+    },
+    es: {
+      title: 'Equipos de Deposición por Pulverización | Atomización por Gas | Producción de Polvo Metálico',
+      description: 'Fabricante profesional de equipos de deposición por pulverización, conformado por pulverización, atomización por gas y producción de polvo metálico. Más de 20 años de experiencia. Soluciones para industrias aeroespacial, automotriz y semiconductores.',
+      keywords: 'deposición por pulverización, conformado por pulverización, solidificación rápida, atomización por gas, producción de polvo metálico, atomización de polvo metálico, metalurgia del polvo, proceso Osprey, palanquilla, preformas tubulares, atomización con gas inerte, materiales compuestos de aluminio, SiC/Al, aleación CE, carburo de silicio-aluminio, aleaciones de cobre, aleaciones de aluminio, aleaciones de acero, encapsulado electrónico, discos de freno ligeros, perfiles extruidos, chapas laminadas, materiales aeroespaciales, automoción ligera, equipos de laboratorio'
+    },
+    ar: {
+      title: 'معدات الترسيب بالرش وتشكيل الرش | تفتيت الغاز | إنتاج المسحوق المعدني',
+      description: 'مصنّع محترف لمعدات الترسيب بالرش وتشكيل الرش وتفتيت الغاز وإنتاج المسحوق المعدني. أكثر من 20 عاماً من الخبرة. حلول مخصصة لصناعات الفضاء والسيارات وأشباه الموصلات.',
+      keywords: 'الترسيب بالرش, التشكيل بالرش, التصلب السريع, التفتيت بالغاز, إنتاج المسحوق المعدني, تفتيت المسحوق المعدني, تعدين المساحيق, كتل معدنية, قضبان مجوفة, الغاز الخامل للتفتيت, معدات صناعة المسحوق, مواد مركبة على أساس الألومنيوم, مواد مركبة كربيد السيليكون-الألومنيوم, SiC/Al, سبيكة CE, سبائك النحاس, سبائك الألومنيوم, سبائك الصلب, التغليف الإلكتروني, أقراص الفرامل الخفيفة, مقاطع مبثوقة, صفائح مدلفنة, مواد الفضاء الجوي, خفة وزن السيارات, معدات مختبرات الأبحاث'
     }
   },
 
@@ -49,6 +64,21 @@ export const seoConfig = {
       title: '제품 - 분무 증착 및 분말 야금 장비',
       description: '고성능 금속 재료를 생산하기 위한 완전한 분무 증착, 급속 응고, 가스 분무 장비 시리즈.',
       keywords: '분무 증착 장비, 분말 야금 기계, 분무 시스템, 급속 응고 장비'
+    },
+    hi: {
+      title: 'उत्पाद - स्प्रे डिपॉजिशन और पाउडर धातुकर्म उपकरण',
+      description: 'उच्च-प्रदर्शन धातु सामग्री का उत्पादन करने के लिए स्प्रे डिपॉजिशन, तीव्र ठोसीकरण और गैस परमाणुकरण उपकरणों की पूर्ण श्रृंखला।',
+      keywords: 'स्प्रे डिपॉजिशन उपकरण, पाउडर धातुकर्म मशीनरी, परमाणुकरण सिस्टम, तीव्र ठोसीकरण उपकरण'
+    },
+    es: {
+      title: 'Productos - Equipos de Deposición por Pulverización y Metalurgia del Polvo',
+      description: 'Gama completa de equipos de deposición por pulverización, solidificación rápida y atomización por gas para producir materiales metálicos de alto rendimiento.',
+      keywords: 'equipos de deposición por pulverización, maquinaria de metalurgia del polvo, sistemas de atomización, equipos de solidificación rápida'
+    },
+    ar: {
+      title: 'المنتجات - معدات الترسيب بالرش وتعدين المساحيق',
+      description: 'مجموعة كاملة من معدات الترسيب بالرش والتصلب السريع وتفتيت الغاز لإنتاج مواد معدنية عالية الأداء.',
+      keywords: 'معدات الترسيب بالرش, آلات تعدين المساحيق, أنظمة التفتيت, معدات التصلب السريع'
     }
   },
 
@@ -73,6 +103,21 @@ export const seoConfig = {
       title: '분무 증착 잉곳 장비 | 분무 성형기',
       description: '미세하고 균일한 입자(20-50 마이크론)와 거시적 편석이 없는 알루미늄 합금, 구리 합금, 강철 합금을 생산하는 전문 분무 증착 잉곳 장비.',
       keywords: '분무 증착 잉곳, 분무 성형 장비, 금속 잉곳 생산, 알루미늄 합금 분무 증착'
+    },
+    hi: {
+      title: 'स्प्रे डिपॉजिशन इंगट उपकरण | स्प्रे फॉर्मिंग मशीन',
+      description: 'सूक्ष्म और समान कण संरचना (20-50 माइक्रोन) और बिना स्थूल पृथक्करण के एल्युमीनियम मिश्र धातु, तांबे की मिश्र धातु और स्टील मिश्र धातु बिलेट उत्पादन करने वाला पेशेवर उपकरण।',
+      keywords: 'स्प्रे डिपॉजिशन इंगट, स्प्रे फॉर्मिंग उपकरण, बिलेट उत्पादन, एल्युमीनियम मिश्र धातु बिलेट, तांबे की मिश्र धातु इंगट'
+    },
+    es: {
+      title: 'Equipo de Palanquilla por Deposición por Pulverización | Máquina de Conformado por Pulverización',
+      description: 'Equipo profesional de deposición por pulverización para producir aleaciones de aluminio, cobre y acero con estructura de grano fino (20-50 micras) y sin segregación macroscópica.',
+      keywords: 'palanquilla por deposición por pulverización, conformado por pulverización, producción de palanquillas, deposición de aleación de aluminio, palanquilla de aleación de cobre'
+    },
+    ar: {
+      title: 'معدات الكتل المعدنية بالترسيب بالرش | آلة تشكيل الرش',
+      description: 'معدات احترافية للترسيب بالرش لإنتاج سبائك الألومنيوم والنحاس والصلب ببنية حبيبية دقيقة ومتناسقة (20-50 ميكرون) دون انفصال كبروي.',
+      keywords: 'كتل الترسيب بالرش, معدات تشكيل الرش, إنتاج الكتل المعدنية, ترسيب سبائك الألومنيوم, كتل سبائك النحاس'
     }
   },
 
@@ -97,6 +142,21 @@ export const seoConfig = {
       title: '가스 분무 분말 장비 | 금속 분말 제조',
       description: '반도체, 전자 패키징 및 광통신 응용 분야를 위한 고급 가스 보호 분말 제조 장비. 5-15 마이크론 입자 크기의 미세 금속 분말 생산.',
       keywords: '가스 분무, 금속 분말 생산, 분말 분무 장비, 반도체 재료'
+    },
+    hi: {
+      title: 'गैस परमाणुकरण पाउडर उपकरण | धातु चूर्ण निर्माण',
+      description: 'सेमीकंडक्टर, इलेक्ट्रॉनिक पैकेजिंग और ऑप्टिकल कम्युनिकेशन अनुप्रयोगों के लिए उन्नत गैस-संरक्षित पाउडर तैयारी उपकरण। 5-15 माइक्रोन कण आकार के सूक्ष्म धातु पाउडर का उत्पादन।',
+      keywords: 'गैस परमाणुकरण, धातु चूर्ण उत्पादन, पाउडर परमाणुकरण उपकरण, सेमीकंडक्टर सामग्री, एल्युमीनियम मिश्र धातु कम्पोजिट'
+    },
+    es: {
+      title: 'Equipo de Polvo por Atomización por Gas | Fabricación de Polvo Metálico',
+      description: 'Equipo avanzado de preparación de polvo con protección de gas para aplicaciones en semiconductores, encapsulado electrónico y comunicación óptica. Produce polvos metálicos finos con tamaño de grano de 5-15 micras.',
+      keywords: 'atomización por gas, producción de polvo metálico, equipo de atomización de polvo, materiales semiconductores, materiales compuestos de aluminio'
+    },
+    ar: {
+      title: 'معدات مسحوق التفتيت بالغاز | تصنيع المسحوق المعدني',
+      description: 'معدات متقدمة لتجهيز المسحوق المحمي بالغاز لتطبيقات أشباه الموصلات والتغليف الإلكتروني والاتصالات البصرية. تنتج مساحيق معدنية دقيقة بحجم حبيبي 5-15 ميكرون.',
+      keywords: 'التفتيت بالغاز, إنتاج المسحوق المعدني, معدات تفتيت المسحوق, مواد أشباه الموصلات, مواد مركبة على أساس الألومنيوم'
     }
   },
 
@@ -121,6 +181,21 @@ export const seoConfig = {
       title: '분무 증착 튜브 빌렛 장비 | 관형 블랭크 제조',
       description: '우수한 기계적 특성을 가진 구리 합금, 강철 합금, 알루미늄 합금의 관형 금속 블랭크를 생산하는 분무 증착 튜브 빌렛 장비.',
       keywords: '분무 증착 튜브, 관형 블랭크 생산, 금속 튜브 제조, 분무 성형 튜브'
+    },
+    hi: {
+      title: 'स्प्रे डिपॉजिशन ट्यूब बिलेट उपकरण | ट्यूबलर ब्लैंक निर्माण',
+      description: 'उत्कृष्ट यांत्रिक गुणों के साथ तांबे की मिश्र धातु, स्टील मिश्र धातु और एल्युमीनियम मिश्र धातु के ट्यूबलर धातु ब्लैंक का उत्पादन करने वाला स्प्रे डिपॉजिशन ट्यूब बिलेट उपकरण।',
+      keywords: 'स्प्रे डिपॉजिशन ट्यूब, ट्यूबलर ब्लैंक उत्पादन, धातु ट्यूब निर्माण, स्प्रे फॉर्मिंग ट्यूब'
+    },
+    es: {
+      title: 'Equipo de Preformas Tubulares por Deposición por Pulverización | Fabricación de Semiproductos Tubulares',
+      description: 'Equipo de deposición por pulverización para producir preformas tubulares de aleaciones de cobre, acero y aluminio con excelentes propiedades mecánicas.',
+      keywords: 'tubo de deposición por pulverización, producción de preformas tubulares, fabricación de tubos metálicos, tubo de conformado por pulverización'
+    },
+    ar: {
+      title: 'معدات قضبان الأنابيب المجوفة بالترسيب بالرش | تصنيع الأنابيب المعدنية',
+      description: 'معدات ترسيب بالرش لإنتاج قضبان أنبوبية مجوفة من سبائك النحاس والصلب والألومنيوم بخصائص ميكانيكية ممتازة.',
+      keywords: 'أنبوب الترسيب بالرش, إنتاج قضبان مجوفة, تصنيع الأنابيب المعدنية, أنبوب تشكيل الرش'
     }
   },
 
@@ -145,6 +220,21 @@ export const seoConfig = {
       title: 'FAQ - 분무 증착 및 가스 분무 장비 | 텐진 위에양',
       description: '분무 증착, 분무 성형, 가스 분무, 금속 분말 생산 및 텐진 위에양 기계에 관한 자주 묻는 질문 답변.',
       keywords: '분무 증착 FAQ, 가스 분무, 분말 야금 FAQ, 분무 성형 장비'
+    },
+    hi: {
+      title: 'FAQ - स्प्रे डिपॉजिशन और गैस परमाणुकरण उपकरण | टियांजिन यूयांग',
+      description: 'स्प्रे डिपॉजिशन, स्प्रे फॉर्मिंग, गैस परमाणुकरण, धातु चूर्ण उत्पादन और टियांजिन यूयांग मशीनरी के बारे में अक्सर पूछे जाने वाले प्रश्नों के उत्तर।',
+      keywords: 'स्प्रे डिपॉजिशन FAQ, गैस परमाणुकरण, पाउडर धातुकर्म FAQ, स्प्रे फॉर्मिंग उपकरण'
+    },
+    es: {
+      title: 'Preguntas Frecuentes - Equipos de Deposición por Pulverización y Atomización por Gas | Tianjin Yueyang',
+      description: 'Respuestas a preguntas frecuentes sobre deposición por pulverización, conformado por pulverización, atomización por gas, producción de polvo metálico y Tianjin Yueyang Machinery.',
+      keywords: 'FAQ deposición por pulverización, atomización por gas, FAQ metalurgia del polvo, equipos de conformado por pulverización'
+    },
+    ar: {
+      title: 'الأسئلة الشائعة - معدات الترسيب بالرش والتفتيت بالغاز | تيانجين يويانج',
+      description: 'إجابات على الأسئلة الشائعة حول الترسيب بالرش وتشكيل الرش وتفتيت الغاز وإنتاج المسحوق المعدني وشركة تيانجين يويانج للآلات.',
+      keywords: 'الأسئلة الشائعة عن الترسيب بالرش, التفتيت بالغاز, الأسئلة الشائعة عن المسحوق المعدني, معدات تشكيل الرش'
     }
   },
 
@@ -169,6 +259,21 @@ export const seoConfig = {
       title: '회사 소개 - 분무 증착 및 분말 야금 20년 이상',
       description: '5명의 박사와 15명의 석사를 포함한 30명 이상의 R&D 팀원을 보유한 선도적인 분무 증착 및 신소재 R&D 회사.',
       keywords: '분말 야금 회사, 분무 증착 제조업체, 금속 재료 R&D, 선진 재료 회사'
+    },
+    hi: {
+      title: 'हमारे बारे में - 20+ वर्ष स्प्रे डिपॉजिशन और पाउडर धातुकर्म में',
+      description: '5 पीएचडी और 15 मास्टर्स सहित 30+ अनुसंधान टीम सदस्यों के साथ एक प्रमुख स्प्रे डिपॉजिशन और नई सामग्री अनुसंधान कंपनी।',
+      keywords: 'पाउडर धातुकर्म कंपनी, स्प्रे डिपॉजिशन निर्माता, धातु सामग्री अनुसंधान, उन्नत सामग्री कंपनी'
+    },
+    es: {
+      title: 'Sobre Nosotros - 20+ Años en Deposición por Pulverización y Metalurgia del Polvo',
+      description: 'Empresa líder en deposición por pulverización e investigación de nuevos materiales, con un equipo de I+D de más de 30 miembros, incluyendo 5 doctores y 15 másteres.',
+      keywords: 'empresa de metalurgia del polvo, fabricante de deposición por pulverización, investigación de materiales metálicos, empresa de materiales avanzados'
+    },
+    ar: {
+      title: 'معلومات عنا - أكثر من 20 عاماً في الترسيب بالرش وتعدين المساحيق',
+      description: 'شركة رائدة في الترسيب بالرش وأبحاث المواد الجديدة، بفريق بحث وتطوير يضم أكثر من 30 عضواً بما في ذلك 5 حملة دكتوراه و15 حملة ماجستير.',
+      keywords: 'شركة تعدين المساحيق, مصنع الترسيب بالرش, أبحاث المواد المعدنية, شركة المواد المتقدمة'
     }
   },
 
@@ -193,6 +298,21 @@ export const seoConfig = {
       title: '문의하기 - 분무 증착 장비 견적 받기',
       description: '분무 증착, 급속 응고, 분말 야금 장비 문의는 텐진 위에양 기계로. 이메일: admin@tianbaoyueyang.com, 전화: +86-22-22539988',
       keywords: '분무 증착 공급업체 연락, 분말 야금 장비 견적, 금속 분말 장비 문의'
+    },
+    hi: {
+      title: 'संपर्क करें - स्प्रे डिपॉजिशन उपकरण के लिए उद्धरण प्राप्त करें',
+      description: 'स्प्रे डिपॉजिशन, तीव्र ठोसीकरण और पाउडर धातुकर्म उपकरण के लिए टियांजिन यूयांग मशीनरी से संपर्क करें। ईमेल: admin@tianbaoyueyang.com, टेलीफोन: +86-22-22539988',
+      keywords: 'स्प्रे डिपॉजिशन आपूर्तिकर्ता संपर्क, पाउडर धातुकर्म उपकरण उद्धरण, धातु चूर्ण उपकरण पूछताछ'
+    },
+    es: {
+      title: 'Contáctenos - Obtenga una Cotización para Equipos de Deposición por Pulverización',
+      description: 'Contacte a Tianjin Yueyang Machinery para consultas sobre equipos de deposición por pulverización, solidificación rápida y metalurgia del polvo. Email: admin@tianbaoyueyang.com, Tel: +86-22-22539988',
+      keywords: 'contactar proveedor de deposición por pulverización, cotización de equipos de metalurgia del polvo, consulta de equipos de polvo metálico'
+    },
+    ar: {
+      title: 'اتصل بنا - احصل على عرض سعر لمعدات الترسيب بالرش',
+      description: 'تواصل مع شركة تيانجين يويانج للآلات للاستفسار عن معدات الترسيب بالرش والتصلب السريع وتعدين المساحيق. البريد الإلكتروني: admin@tianbaoyueyang.com، الهاتف: +86-22-22539988',
+      keywords: 'الاتصال بمورد الترسيب بالرش, عرض سعر معدات تعدين المساحيق, الاستفسار عن معدات المسحوق المعدني'
     }
   }
 }
