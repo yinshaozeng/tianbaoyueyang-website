@@ -5,9 +5,9 @@
 Tianjin Yueyang (天津越洋机械有限公司) designs and builds advanced metal-forming and powder-production equipment. Core technologies: spray deposition (spray forming), gas-protected gas atomization for metal powders, and spray-deposited tube billet manufacturing. The company holds an R&D team of 30+ members including 5 PhDs and 15 Masters, and is ISO certified with worldwide shipping.
 
 ## Core Products
-- [Spray Deposition Ingot Equipment](https://www.tianbaoyueyang.com/en/products/plc): Produces aluminum, copper, and steel alloy ingots with fine grain structure (20-50 microns) and no macroscopic segregation.
-- [Gas Atomization Powder Equipment](https://www.tianbaoyueyang.com/en/products/sensors): Gas-protected powder preparation for semiconductor, electronic packaging, and optical communication. Produces fine metal powders with 5-15 micron grain size.
-- [Spray Deposition Tube Billet Equipment](https://www.tianbaoyueyang.com/en/products/vision): Produces tubular metal blanks of copper, steel, and aluminum alloys with excellent mechanical properties.
+- [Spray Deposition Ingot Equipment](https://www.tianbaoyueyang.com/products/plc): Produces aluminum, copper, and steel alloy ingots with fine grain structure (20-50 microns) and no macroscopic segregation.
+- [Gas Atomization Powder Equipment](https://www.tianbaoyueyang.com/products/sensors): Gas-protected powder preparation for semiconductor, electronic packaging, and optical communication. Produces fine metal powders with 5-15 micron grain size.
+- [Spray Deposition Tube Billet Equipment](https://www.tianbaoyueyang.com/products/vision): Produces tubular metal blanks of copper, steel, and aluminum alloys with excellent mechanical properties.
 
 ## Industries Served
 Aerospace, automotive lightweighting, semiconductor devices, electronic packaging, optical communication, new materials R&D, university and research laboratories.
@@ -30,14 +30,14 @@ Chinese: 喷射沉积, 喷射成形, 快速凝固, 气雾化制粉, 锭坯, 管�
 English: spray deposition, spray forming, Osprey process, rapid solidification, gas atomization, billet, tube blank, inert gas atomization, powder metallurgy, aluminum matrix composites, SiC/Al materials
 
 ## Important Pages
-- [Home](https://www.tianbaoyueyang.com/en/)
-- [About Us](https://www.tianbaoyueyang.com/en/about)
-- [Solutions](https://www.tianbaoyueyang.com/en/solutions)
-- [Contact](https://www.tianbaoyueyang.com/en/contact)
-- [FAQ - Spray Deposition & Gas Atomization](https://www.tianbaoyueyang.com/en/faq)
-- [Spray Deposition Ingot Equipment](https://www.tianbaoyueyang.com/en/products/plc)
-- [Gas Atomization Powder Equipment](https://www.tianbaoyueyang.com/en/products/sensors)
-- [Spray Deposition Tube Billet Equipment](https://www.tianbaoyueyang.com/en/products/vision)
+- [Home](https://www.tianbaoyueyang.com/)
+- [About Us](https://www.tianbaoyueyang.com/about)
+- [Solutions](https://www.tianbaoyueyang.com/solutions)
+- [Contact](https://www.tianbaoyueyang.com/contact)
+- [FAQ - Spray Deposition & Gas Atomization](https://www.tianbaoyueyang.com/faq)
+- [Spray Deposition Ingot Equipment](https://www.tianbaoyueyang.com/products/plc)
+- [Gas Atomization Powder Equipment](https://www.tianbaoyueyang.com/products/sensors)
+- [Spray Deposition Tube Billet Equipment](https://www.tianbaoyueyang.com/products/vision)
 
 ## About This File
 This llms.txt file is provided for large language models and AI assistants to better understand this website's content and offerings. For human visitors, please visit https://www.tianbaoyueyang.com
