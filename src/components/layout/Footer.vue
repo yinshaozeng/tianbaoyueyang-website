@@ -69,6 +69,13 @@
           <!-- 版权信息 -->
           <div class="copyright">
             <p>&copy; {{ currentYear }} {{ t("footer.copyright") }}</p>
+            <p class="icp-beian">
+              <a
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >津ICP备2026017398号</a>
+            </p>
           </div>
         </div>
       </div>
@@ -293,6 +300,24 @@ export default {
   color: rgba(255, 255, 255, 0.5);
   font-size: var(--font-size-sm);
   text-align: center;
+}
+
+.copyright p {
+  margin: 0;
+}
+
+.icp-beian {
+  margin-top: 0.4em;
+}
+
+.icp-beian a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--transition-base);
+}
+
+.icp-beian a:hover {
+  color: var(--color-text-white);
 }
 
 .footer-bottom-links {
