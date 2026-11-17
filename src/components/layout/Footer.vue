@@ -70,7 +70,12 @@
           <div class="copyright">
             <p>&copy; {{ currentYear }} {{ t("footer.copyright") }}</p>
             <p class="site-beian">
-              <span>津ICP备2026017398号-1</span>
+              <a
+                class="icp-beian"
+                href="https://beian.miit.gov.cn/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >津ICP备2026017398号-1</a>
               <a
                 class="gongan-beian"
                 href="https://beian.mps.gov.cn/#/query/webSearch?code=12011502001047"
@@ -320,12 +325,16 @@ export default {
   gap: 0.4em 1.1em;
 }
 
+.icp-beian,
+.gongan-beian {
+  color: inherit;
+  text-decoration: none;
+}
+
 .gongan-beian {
   display: inline-flex;
   align-items: center;
   gap: 0.35em;
-  color: inherit;
-  text-decoration: none;
 }
 
 .gongan-beian img {
@@ -333,6 +342,7 @@ export default {
   height: 17px;
 }
 
+.icp-beian:hover,
 .gongan-beian:hover {
   color: var(--color-text-white);
 }
