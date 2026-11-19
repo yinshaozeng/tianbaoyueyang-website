@@ -9,37 +9,37 @@ export const seoConfig = {
     en: {
       title: 'Spray Deposition & Spray Forming Equipment | Gas Atomization | Powder Production',
       description: 'Professional spray deposition, spray forming, gas atomization and powder production equipment manufacturer. 20+ years experience. Custom metal powder solutions for aerospace, automotive, semiconductor industries.',
-      keywords: 'spray deposition, spray forming, rapid solidification, gas atomization, metal powder atomization, powder metallurgy, billet, tube blank, inert gas atomization, Osprey process, aluminum matrix composites, SiC/Al electronic packaging, CE alloy, copper alloy, aluminum alloy, steel alloy, lightweight brake disc, extruded profiles, rolled sheets, aerospace materials, automotive lightweighting, laboratory research equipment, powder production equipment, metal powder manufacturing, spray forming equipment, hollow billet, inert gas atomization equipment'
+      keywords: 'spray deposition, spray forming, rapid solidification, gas atomization, metal powder atomization, powder metallurgy, billet, tube blank, inert gas atomization, Osprey process, aluminum matrix composites, SiC/Al electronic packaging, CE alloy, CE alloys, CE alloy production equipment, CE alloy manufacturing equipment, controlled expansion alloy, CE6 alloy, CE9 alloy, CE11 alloy, CE13 alloy, CE17 alloy, copper alloy, aluminum alloy, steel alloy, lightweight brake disc, extruded profiles, rolled sheets, aerospace materials, automotive lightweighting, laboratory research equipment, powder production equipment, metal powder manufacturing, spray forming equipment, hollow billet, inert gas atomization equipment'
     },
     zh: {
       title: '喷射沉积设备 | 快速凝固 | 气雾化制粉 | 天津越洋机械',
       description: '专业喷射沉积、快速凝固、气雾化制粉技术服务商。20余年粉末冶金行业经验，为航空航天、汽车、半导体行业提供先进材料解决方案。',
-      keywords: '喷射沉积, 喷射成形, 喷射成型, 快速凝固, 气雾化制粉, 制粉设备, 粉末冶金, 金属粉末制备, 惰性气体雾化, 锭坯, 喷射沉积锭坯, 管坯, 喷射沉积管坯, 铝基复合材料, 碳化硅铝, SiC/Al材料, CE合金, 铜合金, 铝合金, 钢合金, 电子封装粉末, 轻量化刹车盘, 挤压型材, 轧制板材, 航空航天材料, 汽车轻量化, 实验室科研设备'
+      keywords: '喷射沉积, 喷射成形, 喷射成型, 快速凝固, 气雾化制粉, 制粉设备, 粉末冶金, 金属粉末制备, 惰性气体雾化, 锭坯, 喷射沉积锭坯, 管坯, 喷射沉积管坯, 铝基复合材料, 碳化硅铝, SiC/Al材料, CE合金, CE合金生产设备, 可控膨胀合金, CE6合金, CE9合金, CE11合金, CE13合金, CE17合金, 铜合金, 铝合金, 钢合金, 电子封装粉末, 轻量化刹车盘, 挤压型材, 轧制板材, 航空航天材料, 汽车轻量化, 实验室科研设备'
     },
     ja: {
       title: 'スプレー堆積装置 | 急速凝固 | ガスアトマイゼーション粉末製造',
       description: 'プロフェッショナルなスプレー堆積、急速凝固、ガスアトマイゼーション粉末製造装置。20年以上の先進粉末冶金ソリューション経験。',
-      keywords: 'スプレー堆積, スプレーフォーミング, 噴射成形, 急速凝固, 急冷凝固, ガスアトマイゼーション, ガスアトマイズ, 不活性ガスアトマイゼーション, 粉末冶金, 金属粉末製造, 粉末製造, ビレット, 管状ビレット, アルミニウム基複合材料, SiC/Alマテリアル, CEアロイ, 炭化ケイ素アルミニウム, 銅合金, アルミニウム合金, 鋼合金, 電子パッケージング用粉末, 軽量ブレーキディスク, 押出型材, 圧延板材, 航空宇宙材料'
+      keywords: 'スプレー堆積, スプレーフォーミング, 噴射成形, 急速凝固, 急冷凝固, ガスアトマイゼーション, ガスアトマイズ, 不活性ガスアトマイゼーション, 粉末冶金, 金属粉末製造, 粉末製造, ビレット, 管状ビレット, アルミニウム基複合材料, SiC/Alマテリアル, CEアロイ, CE合金製造装置, CE6合金, CE9合金, CE11合金, CE13合金, CE17合金, 炭化ケイ素アルミニウム, 銅合金, アルミニウム合金, 鋼合金, 電子パッケージング用粉末, 軽量ブレーキディスク, 押出型材, 圧延板材, 航空宇宙材料'
     },
     ko: {
       title: '분무 증착 장비 | 급속 응고 | 가스 분무 분말 제조',
       description: '전문 분무 증착, 급속 응고 및 가스 분무 분말 제조 장비. 20년 이상의 선진 분말 야금 솔루션 경험.',
-      keywords: '분무 증착, 스프레이 포밍, 분무 성형, 급속응고, 가스 분무, 가스 아토마이징, 불활성 가스 분무, 분말 야금, 금속 분말 제조, 분말 제조, 빌렛, 관형 빌렛, 알루미늄 기지 복합재료, SiC/Al 재료, CE 합금, 탄화규소 알루미늄, 구리 합금, 알루미늄 합금, 강철 합금, 전자 패키징 분말, 경량 브레이크 디스크, 압출 프로파일, 압연 판재, 항공우주 재료, 자동차 경량화'
+      keywords: '분무 증착, 스프레이 포밍, 분무 성형, 급속응고, 가스 분무, 가스 아토마이징, 불활성 가스 분무, 분말 야금, 금속 분말 제조, 분말 제조, 빌렛, 관형 빌렛, 알루미늄 기지 복합재료, SiC/Al 재료, CE 합금, CE 합금 생산 장비, CE6 합금, CE9 합금, CE11 합금, CE13 합금, CE17 합금, 탄화규소 알루미늄, 구리 합금, 알루미늄 합금, 강철 합금, 전자 패키징 분말, 경량 브레이크 디스크, 압출 프로파일, 압연 판재, 항공우주 재료, 자동차 경량화'
     },
     hi: {
       title: 'स्प्रे डिपॉजिशन और स्प्रे फॉर्मिंग उपकरण | गैस परमाणुकरण | धातु चूर्ण उत्पादन',
       description: 'पेशेवर स्प्रे डिपॉजिशन, स्प्रे फॉर्मिंग, गैस परमाणुकरण और धातु चूर्ण उत्पादन उपकरण निर्माता। 20+ वर्षों का अनुभव। एयरोस्पेस, ऑटोमोटिव, सेमीकंडक्टर उद्योगों के लिए अनुकूलित समाधान।',
-      keywords: 'स्प्रे डिपॉजिशन, स्प्रे फॉर्मिंग, तीव्र ठोसीकरण, गैस परमाणुकरण, धातु चूर्ण उत्पादन, धातु चूर्ण परमाणुकरण, पाउडर धातुकर्म, बिलेट, इंगट निर्माण, ट्यूब ब्लैंक, अक्रिय गैस परमाणुकरण, एल्युमीनियम मिश्र धातु कम्पोजिट, SiC/Al सामग्री, सिलिकॉन कार्बाइड एल्युमीनियम, CE मिश्र धातु, तांबे की मिश्र धातु, एल्युमीनियम मिश्र धातु, स्टील मिश्र धातु, इलेक्ट्रॉनिक पैकेजिंग सामग्री, हल्के ब्रेक डिस्क, एक्सट्रूज़न प्रोफाइल, रोल्ड शीट, एयरोस्पेस सामग्री, ऑटोमोटिव लाइटवेटिंग, अनुसंधान प्रयोगशाला उपकरण'
+      keywords: 'स्प्रे डिपॉजिशन, स्प्रे फॉर्मिंग, तीव्र ठोसीकरण, गैस परमाणुकरण, धातु चूर्ण उत्पादन, धातु चूर्ण परमाणुकरण, पाउडर धातुकर्म, बिलेट, इंगट निर्माण, ट्यूब ब्लैंक, अक्रिय गैस परमाणुकरण, एल्युमीनियम मिश्र धातु कम्पोजिट, SiC/Al सामग्री, सिलिकॉन कार्बाइड एल्युमीनियम, CE मिश्र धातु, CE मिश्र धातु उत्पादन उपकरण, CE6 मिश्र धातु, CE9 मिश्र धातु, CE11 मिश्र धातु, CE13 मिश्र धातु, CE17 मिश्र धातु, तांबे की मिश्र धातु, एल्युमीनियम मिश्र धातु, स्टील मिश्र धातु, इलेक्ट्रॉनिक पैकेजिंग सामग्री, हल्के ब्रेक डिस्क, एक्सट्रूज़न प्रोफाइल, रोल्ड शीट, एयरोस्पेस सामग्री, ऑटोमोटिव लाइटवेटिंग, अनुसंधान प्रयोगशाला उपकरण'
     },
     es: {
       title: 'Equipos de Deposición por Pulverización | Atomización por Gas | Producción de Polvo Metálico',
       description: 'Fabricante profesional de equipos de deposición por pulverización, conformado por pulverización, atomización por gas y producción de polvo metálico. Más de 20 años de experiencia. Soluciones para industrias aeroespacial, automotriz y semiconductores.',
-      keywords: 'deposición por pulverización, conformado por pulverización, solidificación rápida, atomización por gas, producción de polvo metálico, atomización de polvo metálico, metalurgia del polvo, proceso Osprey, palanquilla, preformas tubulares, atomización con gas inerte, materiales compuestos de aluminio, SiC/Al, aleación CE, carburo de silicio-aluminio, aleaciones de cobre, aleaciones de aluminio, aleaciones de acero, encapsulado electrónico, discos de freno ligeros, perfiles extruidos, chapas laminadas, materiales aeroespaciales, automoción ligera, equipos de laboratorio'
+      keywords: 'deposición por pulverización, conformado por pulverización, solidificación rápida, atomización por gas, producción de polvo metálico, atomización de polvo metálico, metalurgia del polvo, proceso Osprey, palanquilla, preformas tubulares, atomización con gas inerte, materiales compuestos de aluminio, SiC/Al, aleación CE, equipo de producción de aleaciones CE, aleación CE6, aleación CE9, aleación CE11, aleación CE13, aleación CE17, carburo de silicio-aluminio, aleaciones de cobre, aleaciones de aluminio, aleaciones de acero, encapsulado electrónico, discos de freno ligeros, perfiles extruidos, chapas laminadas, materiales aeroespaciales, automoción ligera, equipos de laboratorio'
     },
     ar: {
       title: 'معدات الترسيب بالرش وتشكيل الرش | تفتيت الغاز | إنتاج المسحوق المعدني',
       description: 'مصنّع محترف لمعدات الترسيب بالرش وتشكيل الرش وتفتيت الغاز وإنتاج المسحوق المعدني. أكثر من 20 عاماً من الخبرة. حلول مخصصة لصناعات الفضاء والسيارات وأشباه الموصلات.',
-      keywords: 'الترسيب بالرش, التشكيل بالرش, التصلب السريع, التفتيت بالغاز, إنتاج المسحوق المعدني, تفتيت المسحوق المعدني, تعدين المساحيق, كتل معدنية, قضبان مجوفة, الغاز الخامل للتفتيت, معدات صناعة المسحوق, مواد مركبة على أساس الألومنيوم, مواد مركبة كربيد السيليكون-الألومنيوم, SiC/Al, سبيكة CE, سبائك النحاس, سبائك الألومنيوم, سبائك الصلب, التغليف الإلكتروني, أقراص الفرامل الخفيفة, مقاطع مبثوقة, صفائح مدلفنة, مواد الفضاء الجوي, خفة وزن السيارات, معدات مختبرات الأبحاث'
+      keywords: 'الترسيب بالرش, التشكيل بالرش, التصلب السريع, التفتيت بالغاز, إنتاج المسحوق المعدني, تفتيت المسحوق المعدني, تعدين المساحيق, كتل معدنية, قضبان مجوفة, الغاز الخامل للتفتيت, معدات صناعة المسحوق, مواد مركبة على أساس الألومنيوم, مواد مركبة كربيد السيليكون-الألومنيوم, SiC/Al, سبيكة CE, معدات إنتاج سبيكة CE, سبيكة CE6, سبيكة CE9, سبيكة CE11, سبيكة CE13, سبيكة CE17, سبائك النحاس, سبائك الألومنيوم, سبائك الصلب, التغليف الإلكتروني, أقراص الفرامل الخفيفة, مقاطع مبثوقة, صفائح مدلفنة, مواد الفضاء الجوي, خفة وزن السيارات, معدات مختبرات الأبحاث'
     }
   },
 
@@ -48,37 +48,37 @@ export const seoConfig = {
     en: {
       title: 'Products - Spray Deposition & Powder Metallurgy Equipment',
       description: 'Complete range of spray deposition, rapid solidification and gas atomization equipment for producing high-performance metal materials.',
-      keywords: 'spray deposition equipment, powder metallurgy machinery, atomization systems, rapid solidification equipment'
+      keywords: 'spray deposition equipment, powder metallurgy machinery, atomization systems, rapid solidification equipment, CE alloy production equipment, CE alloy, CE6 alloy, CE9 alloy, CE11 alloy, CE13 alloy, CE17 alloy'
     },
     zh: {
       title: '产品中心 - 喷射沉积与粉末冶金设备',
       description: '完整的喷射沉积、快速凝固、气雾化制粉设备系列，用于生产高性能金属材料。',
-      keywords: '喷射沉积设备, 粉末冶金设备, 雾化系统, 快速凝固设备'
+      keywords: '喷射沉积设备, 粉末冶金设备, 雾化系统, 快速凝固设备, CE合金生产设备, CE合金, CE6合金, CE9合金, CE11合金, CE13合金, CE17合金'
     },
     ja: {
       title: '製品 - スプレー堆積および粉末冶金装置',
       description: '高性能金属材料を製造するための完全なスプレー堆積、急速凝固、ガスアトマイゼーション装置シリーズ。',
-      keywords: 'スプレー堆積装置, 粉末冶金機械, アトマイゼーションシステム, 急速凝固装置'
+      keywords: 'スプレー堆積装置, 粉末冶金機械, アトマイゼーションシステム, 急速凝固装置, CE合金製造装置, CEアロイ, CE6合金, CE9合金, CE11合金, CE13合金, CE17合金'
     },
     ko: {
       title: '제품 - 분무 증착 및 분말 야금 장비',
       description: '고성능 금속 재료를 생산하기 위한 완전한 분무 증착, 급속 응고, 가스 분무 장비 시리즈.',
-      keywords: '분무 증착 장비, 분말 야금 기계, 분무 시스템, 급속 응고 장비'
+      keywords: '분무 증착 장비, 분말 야금 기계, 분무 시스템, 급속 응고 장비, CE 합금 생산 장비, CE 합금, CE6 합금, CE9 합금, CE11 합금, CE13 합금, CE17 합금'
     },
     hi: {
       title: 'उत्पाद - स्प्रे डिपॉजिशन और पाउडर धातुकर्म उपकरण',
       description: 'उच्च-प्रदर्शन धातु सामग्री का उत्पादन करने के लिए स्प्रे डिपॉजिशन, तीव्र ठोसीकरण और गैस परमाणुकरण उपकरणों की पूर्ण श्रृंखला।',
-      keywords: 'स्प्रे डिपॉजिशन उपकरण, पाउडर धातुकर्म मशीनरी, परमाणुकरण सिस्टम, तीव्र ठोसीकरण उपकरण'
+      keywords: 'स्प्रे डिपॉजिशन उपकरण, पाउडर धातुकर्म मशीनरी, परमाणुकरण सिस्टम, तीव्र ठोसीकरण उपकरण, CE मिश्र धातु उत्पादन उपकरण, CE मिश्र धातु, CE6 मिश्र धातु, CE9 मिश्र धातु, CE11 मिश्र धातु, CE13 मिश्र धातु, CE17 मिश्र धातु'
     },
     es: {
       title: 'Productos - Equipos de Deposición por Pulverización y Metalurgia del Polvo',
       description: 'Gama completa de equipos de deposición por pulverización, solidificación rápida y atomización por gas para producir materiales metálicos de alto rendimiento.',
-      keywords: 'equipos de deposición por pulverización, maquinaria de metalurgia del polvo, sistemas de atomización, equipos de solidificación rápida'
+      keywords: 'equipos de deposición por pulverización, maquinaria de metalurgia del polvo, sistemas de atomización, equipos de solidificación rápida, equipo de producción de aleaciones CE, aleación CE, aleación CE6, aleación CE9, aleación CE11, aleación CE13, aleación CE17'
     },
     ar: {
       title: 'المنتجات - معدات الترسيب بالرش وتعدين المساحيق',
       description: 'مجموعة كاملة من معدات الترسيب بالرش والتصلب السريع وتفتيت الغاز لإنتاج مواد معدنية عالية الأداء.',
-      keywords: 'معدات الترسيب بالرش, آلات تعدين المساحيق, أنظمة التفتيت, معدات التصلب السريع'
+      keywords: 'معدات الترسيب بالرش, آلات تعدين المساحيق, أنظمة التفتيت, معدات التصلب السريع, معدات إنتاج سبيكة CE, سبيكة CE, سبيكة CE6, سبيكة CE9, سبيكة CE11, سبيكة CE13, سبيكة CE17'
     }
   },
 
@@ -126,37 +126,37 @@ export const seoConfig = {
     en: {
       title: 'Gas Atomization Powder Equipment | Metal Powder Manufacturing',
       description: 'Advanced gas-protected powder preparation equipment for semiconductor, electronic packaging and optical communication applications. Producing fine metal powders with 5-15 micron grain size.',
-      keywords: 'gas atomization, metal powder production, powder atomization equipment, semiconductor materials, aluminum matrix composites'
+      keywords: 'gas atomization, metal powder production, powder atomization equipment, semiconductor materials, aluminum matrix composites, CE alloy, CE alloys, CE alloy production equipment, CE alloy manufacturing equipment, controlled expansion alloy, CE6 alloy, CE9 alloy, CE11 alloy, CE13 alloy, CE17 alloy'
     },
     zh: {
       title: '气雾化制粉设备 | 金属粉末制造',
       description: '先进的气体保护粉末制备设备，应用于半导体、电子封装和光通讯领域。生产晶粒尺寸5-15微米的精细金属粉末。',
-      keywords: '气雾化, 金属粉末生产, 粉末雾化设备, 半导体材料, 铝基复合材料'
+      keywords: '气雾化, 金属粉末生产, 粉末雾化设备, 半导体材料, 铝基复合材料, CE合金, CE合金生产设备, 可控膨胀合金, CE6合金, CE9合金, CE11合金, CE13合金, CE17合金'
     },
     ja: {
       title: 'ガスアトマイゼーション粉末装置 | 金属粉末製造',
       description: '半導体、電子パッケージング、光通信用途向けの先進的なガス保護粉末調製装置。5〜15ミクロンの粒径の微細金属粉末を製造。',
-      keywords: 'ガスアトマイゼーション, 金属粉末生産, 粉末アトマイゼーション装置, 半導体材料'
+      keywords: 'ガスアトマイゼーション, 金属粉末生産, 粉末アトマイゼーション装置, 半導体材料, CEアロイ, CE合金製造装置, CE6合金, CE9合金, CE11合金, CE13合金, CE17合金'
     },
     ko: {
       title: '가스 분무 분말 장비 | 금속 분말 제조',
       description: '반도체, 전자 패키징 및 광통신 응용 분야를 위한 고급 가스 보호 분말 제조 장비. 5-15 마이크론 입자 크기의 미세 금속 분말 생산.',
-      keywords: '가스 분무, 금속 분말 생산, 분말 분무 장비, 반도체 재료'
+      keywords: '가스 분무, 금속 분말 생산, 분말 분무 장비, 반도체 재료, CE 합금, CE 합금 생산 장비, CE6 합금, CE9 합금, CE11 합금, CE13 합금, CE17 합금'
     },
     hi: {
       title: 'गैस परमाणुकरण पाउडर उपकरण | धातु चूर्ण निर्माण',
       description: 'सेमीकंडक्टर, इलेक्ट्रॉनिक पैकेजिंग और ऑप्टिकल कम्युनिकेशन अनुप्रयोगों के लिए उन्नत गैस-संरक्षित पाउडर तैयारी उपकरण। 5-15 माइक्रोन कण आकार के सूक्ष्म धातु पाउडर का उत्पादन।',
-      keywords: 'गैस परमाणुकरण, धातु चूर्ण उत्पादन, पाउडर परमाणुकरण उपकरण, सेमीकंडक्टर सामग्री, एल्युमीनियम मिश्र धातु कम्पोजिट'
+      keywords: 'गैस परमाणुकरण, धातु चूर्ण उत्पादन, पाउडर परमाणुकरण उपकरण, सेमीकंडक्टर सामग्री, एल्युमीनियम मिश्र धातु कम्पोजिट, CE मिश्र धातु, CE मिश्र धातु उत्पादन उपकरण, CE6 मिश्र धातु, CE9 मिश्र धातु, CE11 मिश्र धातु, CE13 मिश्र धातु, CE17 मिश्र धातु'
     },
     es: {
       title: 'Equipo de Polvo por Atomización por Gas | Fabricación de Polvo Metálico',
       description: 'Equipo avanzado de preparación de polvo con protección de gas para aplicaciones en semiconductores, encapsulado electrónico y comunicación óptica. Produce polvos metálicos finos con tamaño de grano de 5-15 micras.',
-      keywords: 'atomización por gas, producción de polvo metálico, equipo de atomización de polvo, materiales semiconductores, materiales compuestos de aluminio'
+      keywords: 'atomización por gas, producción de polvo metálico, equipo de atomización de polvo, materiales semiconductores, materiales compuestos de aluminio, aleación CE, equipo de producción de aleaciones CE, aleación CE6, aleación CE9, aleación CE11, aleación CE13, aleación CE17'
     },
     ar: {
       title: 'معدات مسحوق التفتيت بالغاز | تصنيع المسحوق المعدني',
       description: 'معدات متقدمة لتجهيز المسحوق المحمي بالغاز لتطبيقات أشباه الموصلات والتغليف الإلكتروني والاتصالات البصرية. تنتج مساحيق معدنية دقيقة بحجم حبيبي 5-15 ميكرون.',
-      keywords: 'التفتيت بالغاز, إنتاج المسحوق المعدني, معدات تفتيت المسحوق, مواد أشباه الموصلات, مواد مركبة على أساس الألومنيوم'
+      keywords: 'التفتيت بالغاز, إنتاج المسحوق المعدني, معدات تفتيت المسحوق, مواد أشباه الموصلات, مواد مركبة على أساس الألومنيوم, سبيكة CE, معدات إنتاج سبيكة CE, سبيكة CE6, سبيكة CE9, سبيكة CE11, سبيكة CE13, سبيكة CE17'
     }
   },
 
